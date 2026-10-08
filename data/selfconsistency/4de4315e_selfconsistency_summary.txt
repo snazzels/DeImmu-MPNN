@@ -1,0 +1,37 @@
+==============================================================================
+ESMFOLD2 SELF-CONSISTENCY  (roadmap step P1.3)
+==============================================================================
+Designs scored (TM computed) : 217 / 217
+Fold failures (OOM/err/no pdb): 0
+TM normalised by native aligned length; correspondence fixed 1:1; masked (missing-density) residues excluded.
+Foldability bar (paper_outline): TM >= 0.85
+
+------------------------------------------------------------------------------
+Per-design summary by model
+------------------------------------------------------------------------------
+native       n=31   TM 0.835±0.218 (med 0.927)  RMSD 2.68±3.64 Å  TM>=0.85: 68%  pLDDT 0.79
+base         n=93   TM 0.864±0.157 (med 0.924)  RMSD 1.92±1.87 Å  TM>=0.85: 77%  pLDDT 0.77
+finetuned    n=93   TM 0.850±0.173 (med 0.921)  RMSD 2.09±2.32 Å  TM>=0.85: 70%  pLDDT 0.77
+
+The 'native' row is a positive control: folding the wild-type sequence should
+recover the native backbone at high TM, validating the whole pipeline.
+
+------------------------------------------------------------------------------
+Paired base vs finetuned foldability (n=31 proteins)
+------------------------------------------------------------------------------
+base      mean TM : 0.864
+finetuned mean TM : 0.850
+Delta (ft - base) : -0.014 ± 0.061  (finetuned better on 13/31 proteins)
+Paired t-test     : t=-1.23, p=0.228
+Wilcoxon          : W=169.0, p=0.125
+
+Interpretation: a Delta near zero (n.s.) means de-immunisation preserves
+foldability; a significantly negative Delta would mean the MHC-II objective
+costs structural quality — the trade-off the paper must quantify.
+
+------------------------------------------------------------------------------
+Foldability vs MHC-II burden (per design)
+------------------------------------------------------------------------------
+base       Pearson(TM, MHC-II windows) r=+0.079 p=0.451  (mean MHC-II 36.9)
+finetuned  Pearson(TM, MHC-II windows) r=+0.031 p=0.767  (mean MHC-II 27.0)
+

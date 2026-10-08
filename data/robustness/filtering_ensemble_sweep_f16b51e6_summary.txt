@@ -1,0 +1,44 @@
+FILTERING vs FINE-TUNING AS A FUNCTION OF ENSEMBLE SIZE (P1-2 / DA-M5)
+==============================================================================
+source CSV : validate_netmhciipan_sweep_f16b51e6.csv
+column     : netmhc_total
+ensemble   : 10 designs per protein per arm
+guard      : per-protein mean base burden > 1.0 over ALL 10 designs
+proteins   : 98 retained, 2 excluded (4b6d_C [0.00], 7m10_A [0.10])
+
+ESTIMATOR: exact expectation of the best of k designs drawn from the
+ensemble of 10, E[min of k] = sum_i x_(i) C(i-1,k-1)/C(n,k). Not a bootstrap.
+
+  k   filtering mean %   filtering pooled %   vs fine-tuned
+  ------------------------------------------------------------
+  1             0.00               0.00        -41.36 pp
+  2            14.42              11.55        -26.94 pp
+  3            21.10              17.05        -20.26 pp
+  4            25.27              20.53        -16.09 pp
+  5            28.25              23.02        -13.11 pp
+  6            30.55              24.93        -10.81 pp
+  7            32.40              26.46         -8.96 pp
+  8            33.93              27.72         -7.43 pp
+  9            35.23              28.78         -6.13 pp
+  10           36.36              29.69         -5.01 pp
+
+  fine-tuned (ensemble of 10) : mean 41.36%   pooled 43.50%
+  fine-tuned, single design (k=1) : mean 41.36%
+
+RESULT: filtering does NOT reach the fine-tuned reduction at any budget up to
+        k=10. The largest budget tested reaches 36.36% against
+        41.36%, a shortfall of 5.01 pp.
+        The curve is monotone, so a crossing at some larger k is not excluded;
+        what is excluded is a crossing within the budget range tested.
+
+READ WITH TWO CAVEATS, both of which favour fine-tuning and neither of which
+is captured by the crossing point alone:
+  (a) COST IS NOT EQUAL AT EQUAL REDUCTION. Filtering at budget k requires k
+      netMHCIIpan calls per protein at design time. The fine-tuned model
+      requires none -- the objective is already in the weights.
+  (b) THE ARMS ARE NOT LIKE FOR LIKE. The fine-tuned figure above is its own
+      10-design ensemble mean; a single fine-tuned design (no selection at all)
+      is the row marked k=1 in the fine-tuned line. The two strategies also
+      compose -- filtering the FINE-TUNED ensemble is reported separately in
+      the manuscript and exceeds either alone.
+==============================================================================

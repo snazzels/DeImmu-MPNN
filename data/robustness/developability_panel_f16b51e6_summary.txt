@@ -1,0 +1,38 @@
+AGGREGATION AND PTM LIABILITY PANEL (P1-3 / R3-W2)
+====================================================================================
+source CSV : validate_netmhciipan_sweep_f16b51e6.csv
+proteins   : 100 paired
+designs    : per-protein means over all designs in each arm, then paired on protein
+
+SCOPE. These are sequence-level proxies computed for CHANGE between two arms
+designed from identical backbones. CamSol, Aggrescan3D and SAP were NOT run.
+No absolute aggregation risk is claimed; what is tested is whether the
+de-immunisation objective moved any liability axis, in either direction.
+
+metric                              base  fine-tuned     delta    p (raw)   p (Holm)  direction
+------------------------------------------------------------------------------------------------
+n_glyc_sequon                      1.121       1.515    +0.394   4.11e-11   1.64e-10  WORSE (higher liability)
+deamid_NG                          1.089       1.618    +0.529   7.99e-14   4.79e-13  WORSE (higher liability)
+deamid_NS_NT                       1.059       1.410    +0.351   4.16e-08   8.32e-08  WORSE (higher liability)
+isomer_DG_DS                       2.047       1.790    -0.257   1.75e-05   1.75e-05  better (lower liability)
+cysteine                           2.355      11.389    +9.034   4.46e-28   4.46e-27  WORSE (higher liability)
+methionine                         2.814       3.666    +0.852   9.54e-14   4.79e-13  WORSE (higher liability)
+tryptophan                         3.165       5.312    +2.147   5.25e-20   4.72e-19  WORSE (higher liability)
+hydrophobic_patches               14.304      10.583    -3.721   2.66e-15   1.86e-14  better (lower liability)
+hydrophobic_patches_per100         4.793       3.442    -1.352   1.39e-15   1.11e-14  better (lower liability)
+max_patch_hydropathy               2.337       2.177    -0.160   5.00e-09   1.50e-08  better (lower liability)
+
+Holm-Bonferroni across all 10 metrics at alpha=0.05. Wilcoxon p-values
+are in the CSV alongside the per-protein values; the table above tests the
+paired t on per-protein means, with Holm applied to those.
+
+READING:
+  ** 6 metric(s) moved toward HIGHER liability: n_glyc_sequon, deamid_NG, deamid_NS_NT, cysteine, methionine, tryptophan.
+     This is the direction that could offset the epitope reduction and must be
+     reported as such, with effect sizes, not only as a p-value.
+  4 metric(s) moved toward LOWER liability: isomer_DG_DS, hydrophobic_patches, hydrophobic_patches_per100, max_patch_hydropathy.
+
+  A null here is a bounded negative result, not proof of equivalence: with this
+  sample a small shift would not be detected, and the proxies are crude by
+  construction. What it excludes is a large shift on these axes.
+====================================================================================

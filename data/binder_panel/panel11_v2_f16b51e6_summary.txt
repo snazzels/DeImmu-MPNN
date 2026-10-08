@@ -1,0 +1,19 @@
+11-COMPLEX BINDER PANEL v2 -- DEPLOYED MODEL = f16b51e6 (beta0.05/lr1e-6, lambda1.0)
+base arm reused from v1 (model-independent); cape arm re-run on f16b51e6
+============================================================================================
+pdb   target                 L burden% iptm_nat  iptm_b  iptm_c  d_iptm af2_b% af2_c%
+7jzl  SARS-CoV-2 RBD        55    40.0    0.966   0.927   0.903  -0.023   29.2   41.7
+5vli  influenza HA          40    86.9    0.963   0.953   0.911  -0.042    0.0    0.0
+8upa  gp130                 56    37.0    0.933   0.893   0.899  +0.006   75.0   83.3
+4oyd  EBV                  117    38.1    0.952   0.961    0.96  -0.001   33.3   70.8
+9ju1  VEGF-A                43    42.2    0.837   0.599   0.568  -0.031    0.0    0.0
+9kku  VEGF-A                43    70.0    0.824   0.675   0.665  -0.009    0.0    0.0
+8t5e  bioactive peptide    134    79.3    0.955   0.919   0.911  -0.008   95.8   95.8
+9cc5  bioactive peptide    132    74.0    0.931   0.924   0.923  -0.001  100.0   95.8
+9nzh  amylin               135    45.4    0.947   0.939    0.94  +0.001  100.0  100.0
+9cce  peptide (dyna_1b7)   197    36.6    0.745   0.842   0.843  +0.001   12.5    0.0
+9nds  HLA-Tax/TCR          248    60.5     0.93   0.898   0.902  +0.005    0.0    0.0
+
+Epitope burden reduction : mean +55.5%  (+36.6 to +86.9), 11/11 positive   [v1 was +39.7%]
+Boltz-2 ipTM             : base 0.866 -> cape 0.857  (delta -0.010)
+AF2 initial-guess pass%  : base 40.5% -> cape 44.3%  (cape not worse)

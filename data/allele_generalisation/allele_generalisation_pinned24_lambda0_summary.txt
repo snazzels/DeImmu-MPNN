@@ -1,0 +1,39 @@
+==============================================================================
+HELD-OUT ALLELE GENERALISATION  (roadmap P2.3)
+==============================================================================
+Designs: Track 7 base vs fine-tuned, 24 proteins x 4 seqs/model
+Scorer: netMHCIIpan-4.3, %Rank_EL <= 2.0. One scorer for all groups.
+Reduction = per-protein mean presented windows, base vs fine-tuned (paired).
+The 'trained DRB1' row is the reference (reproduces Track 8, ~38%).
+
+allele group     #al     base  finetuned  reduction   p (Wilcoxon)  improved
+------------------------------------------------------------------------------
+trained DRB1       6      7.5        5.4        28%        1.2e-06     22/24
+held-out DRB1      6      7.7        6.0        22%        1.3e-05     21/24
+DRB3/4/5           3      6.7        4.9        26%        0.00065     18/24
+HLA-DQ             3      7.9        6.5        18%         0.0093     18/24
+HLA-DP             3      8.0        8.0         0%           0.75     14/24
+------------------------------------------------------------------------------
+
+INTERPRETATION  (retention = reduction / trained-DRB1 reference)
+  trained DRB1 (reference)   :   28%
+  held-out DRB1           :   22%  ( 79% of ref, significant)  -> transfers substantially (partial attenuation)
+  DRB3/4/5                :   26%  ( 92% of ref, significant)  -> transfers fully
+  HLA-DQ                  :   18%  ( 64% of ref, significant)  -> transfers substantially (partial attenuation)
+  HLA-DP                  :    0%  (  0% of ref, n.s.)  -> does NOT transfer
+
+  Bottom line (derived from the table above, not a fixed narrative):
+    Transfers to held-out DRB1, DRB3/4/5 and HLA-DQ (held-out DRB1 22% = 79% of ref; DRB3/4/5 26% = 92% of ref; HLA-DQ 18% = 64% of ref).
+    Does NOT transfer to HLA-DP (HLA-DP 0%, p=n.s.).
+    HLA-DP is the remaining gap; if that coverage matters it must be trained
+    explicitly (distinct heterodimer groove, weaker predictor).
+
+  NOTE: these are within-run paired comparisons (base vs fine-tuned on ONE protein
+  set) and are valid as such. Do NOT compare reductions across two runs of this
+  script unless their protein sets match -- check protein_set_md5 below, or run
+  tools/check_protein_match.py on the two CSVs.
+
+  protein_set_md5 : 9cae3da74828  (n=24)
+
+Runtime: 105.2 min
+==============================================================================

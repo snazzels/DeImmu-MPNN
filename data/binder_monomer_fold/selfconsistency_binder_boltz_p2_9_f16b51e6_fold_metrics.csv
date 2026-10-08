@@ -1,0 +1,15 @@
+design_id,protein_name,model,seq_idx,plddt,ptm,n_res,status
+9cce|native,9cce,native,0,0.9311,0.8815,195,ok
+9cce|base|1,9cce,base,1,0.9428,0.8991,195,ok
+9cce|base|2,9cce,base,2,0.9123,0.8375,195,ok
+9cce|base|3,9cce,base,3,0.9359,0.9095,195,ok
+9cce|cape|1,9cce,cape,1,0.9245,0.9098,195,ok
+9cce|cape|2,9cce,cape,2,0.9399,0.8803,195,ok
+9cce|cape|3,9cce,cape,3,0.9148,0.8776,195,ok
+9nds|native,9nds,native,0,0.8525,0.6555,233,ok
+9nds|base|1,9nds,base,1,0.8197,0.6938,233,ok
+9nds|base|2,9nds,base,2,0.8281,0.7124,233,ok
+9nds|base|3,9nds,base,3,0.8342,0.7414,233,ok
+9nds|cape|1,9nds,cape,1,0.7219,0.5603,233,ok
+9nds|cape|2,9nds,cape,2,0.7456,0.5847,233,ok
+9nds|cape|3,9nds,cape,3,0.7967,0.6546,233,ok

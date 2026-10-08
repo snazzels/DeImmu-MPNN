@@ -1,0 +1,27 @@
+======================================================================
+GUARDED RECOMPUTE — validate_netmhciipan_ckptrob_traj_ep200
+======================================================================
+Source CSV (unmodified): validate_netmhciipan_ckptrob_traj_ep200.csv
+Column: netmhc_total
+Minimum-base guard: base > 1.0 mean predicted windows
+Assembly-mismatch exclusion: on
+
+Proteins retained: 93
+  excluded, low base : 1  (4b6d_C [0.10])
+  excluded, assembly : 4  (2pt5_B, 3hmt_A, 4i4y_C, 4nc7_B)
+
+── Per-protein means (guarded set) ───────────────────────────
+  Base:       47.58
+  Fine-tuned: 26.98
+  Reduction:  mean 40.72% ± 23.82%  (median 43.11%)
+  Pooled reduction (denominator-free): 43.30%
+  Improved:   89/93 proteins
+
+── Statistical tests (guarded set) ───────────────────────────
+  Paired t-test: p=7.943e-27
+  Wilcoxon:      p=1.334e-16
+
+── For comparison: the historical UNGUARDED convention ───────
+  Reduction:  mean 41.35% ± 24.47%  (median 43.92%)   n=94
+  Shift from applying the guard: -0.63 pp
+======================================================================

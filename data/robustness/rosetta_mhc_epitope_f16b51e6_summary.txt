@@ -1,0 +1,67 @@
+ROSETTA MHCEpitopeEnergy (ProPred) ORTHOGONAL BENCHMARK (P2-1 / R3)
+==================================================================================
+source CSV : validate_netmhciipan_sweep_f16b51e6.csv
+scorer     : Rosetta mhc_epitope, Matrix predictor using propred8; 8 alleles; threshold 5; xform raw
+             Map predictor from file 'iedb_data.db containing 190594 peptides; peptide length 9; unseen score 0; xform raw
+guard      : per-protein mean base burden > 1.0, applied per metric
+windows    : 530280 total, 7500 dropped for non-standard residues (1.414%)
+unique 9-mers scored : 395520
+
+ACCEPTANCE TESTS PASSED: ProPred reference peptide scores 7/8; window enumeration exact; scoring deterministic.
+
+INSTRUMENT VALIDITY (base arm only, per design) -- do the two predictors even
+measure the same thing on these proteins?
+  Spearman propred_alleles vs netMHCIIpan : rho = +0.783  (p = 3.41e-208)
+  Spearman propred_windows vs netMHCIIpan : rho = +0.800  (p = 1.79e-223)
+  A rho near zero would mean the two disagree about which base designs are
+  epitope-rich, and no conclusion about overfitting could be drawn below.
+
+REDUCTION, each metric under its own guard
+  metric                               n    mean %      sd  pooled %  impr.   Wilcoxon
+  --------------------------------------------------------------------------------
+  propred_alleles                    100     16.99   10.87     16.11     92   4.60e-17
+  propred_windows                    100     11.87    8.52     11.40     92   3.24e-16
+  netmhc_total                        98     41.36   18.95     43.50     93   2.36e-17
+
+REDUCTION, ProPred on the netMHCIIpan-guarded protein set (matched, protein for
+protein, to the netMHCIIpan row above)
+  metric                               n    mean %      sd  pooled %  impr.   Wilcoxon
+  --------------------------------------------------------------------------------
+  propred_alleles (netMHCIIpan-guarded set)  98     16.94   10.51     16.14     91   7.22e-17
+  propred_windows (netMHCIIpan-guarded set)  98     11.93    8.52     11.43     90   5.19e-16
+
+IEDB 9-MER MEMBERSHIP (absolute, not a percentage). Reported this way because
+it is a rare-event count: the per-protein base mean sits below the guard for
+nearly every protein, so a ratio has no usable denominator.
+  n = 98 proteins (94 with zero base hits)
+  base 0.007 -> fine-tuned 0.006 hits per design, paired difference -0.001
+  paired t p = 0.859, Wilcoxon p = 0.892, fewer hits after fine-tuning in 3/98
+  This counts exact occurrence in Rosetta's shipped IEDB 9-mer set, which is a
+  membership lookup and not a prediction. A design can avoid every known
+  epitope and still present novel ones, so a fall here is weak supporting
+  evidence and a null here excludes nothing.
+
+READING (fixed before the numbers were computed):
+  ProPred reduction of the same order as netMHCIIpan's -> the reduction is a
+    property of the designed sequences, not of netMHCIIpan. The shared-predictor
+    objection is answered and the headline can be stated as a reduction in
+    predicted presentation without qualifying it to one predictor.
+  ProPred reduction clearly smaller but still substantial and significant ->
+    partly a real sequence property and partly predictor-specific. Report both
+    numbers; the honest claim is the smaller one.
+  ProPred reduction near zero or negative -> the model has learned netMHCIIpan's
+    idiosyncrasies. The headline would then have to be restated as a reduction
+    in netMHCIIpan-predicted presentation specifically, and this becomes the
+    paper's principal limitation rather than a supporting panel.
+
+  OBSERVED (matched set, n=98): ProPred windows 11.93% vs netMHCIIpan 41.36%,
+            a difference of -29.43 pp.
+  -> Materially smaller on the independent predictor. Report both; lead with
+     the ProPred figure as the conservative one.
+
+WHAT THIS DOES NOT SHOW. ProPred covers eight HLA-DR alleles that only partly
+overlap the six-allele DRB1 panel the model was trained against, and scores
+9-mer cores rather than 15-mer windows. Agreement therefore supports the
+sequence-level claim without extending it to alleles neither predictor covers,
+and neither predictor is evidence about T-cell responses in a person.
+==================================================================================

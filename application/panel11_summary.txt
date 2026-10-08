@@ -1,0 +1,25 @@
+FULL 11-COMPLEX BINDER-REDESIGN PANEL -- Boltz-2 rescored on ALL 24 designs/model (not top-3)
+==========================================================================================
+pdb   target                  L  redux% iptm_nat iptm_b(24) iptm_c(24)  d_iptm af2ig_b% af2ig_c%
+7jzl  SARS-CoV-2 RBD         55    24.6    0.966      0.927      0.939   0.012     29.2     33.3
+5vli  influenza HA           40    62.3    0.963      0.953      0.953     0.0      0.0      0.0
+8upa  gp130                  56    24.7    0.933      0.893      0.899   0.006     75.0     79.2
+4oyd  EBV                   117    30.5    0.952      0.961       0.96  -0.001     33.3     70.8
+9ju1  VEGF-A                 43    34.8    0.837      0.599      0.546  -0.053      0.0      0.0
+9kku  VEGF-A                 43    48.1    0.824      0.675      0.673  -0.001      0.0      0.0
+8t5e  bioactive peptide     134    65.6    0.955      0.919       0.92   0.001     95.8     95.8
+9cc5  bioactive peptide     132    58.3    0.931      0.924      0.923  -0.002    100.0     95.8
+9nzh  amylin                135    19.6    0.947      0.939      0.939    -0.0    100.0     95.8
+9cce  peptide (dyna_1b7)    197    27.6    0.745      0.842      0.834  -0.008     12.5      0.0
+9nds  HLA-Tax/TCR           248    41.1     0.93      0.898      0.899   0.001      0.0      0.0
+
+Epitope burden reduction:  mean +39.7%  range +19.6% to +65.6%  (11/11 complexes positive)
+Boltz-2 ipTM (ALL 24 designs/model, target MSA, binder single-seq):  mean base 0.866  cape 0.862  (delta -0.004)
+  Confident interface (ipTM>0.5): base 253/264 (95.8%)  cape 250/264 (94.7%)
+AF2 initial-guess pass rate (pae_interaction<10.0A, all 24 designs/model):  base 40.5% (107/264)  cape 42.8% (113/264)
+
+Note: with all 24 designs scored by Boltz-2 (not just the top-3 by ProteinMPNN global score),
+9kku -- previously flagged as the sole complex with a material fine-tuned ipTM cost -- now shows
+base and fine-tuned statistically indistinguishable (0.675 vs 0.673); the earlier gap was a top-3
+selection artefact. The largest remaining base-vs-cape gap in the full-24 scoring is 9ju1
+(0.599 -> 0.546, both below native's own 0.837).

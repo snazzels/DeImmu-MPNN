@@ -1,0 +1,19 @@
+==================================================================
+BINDER BINDING-VALIDATOR SENSITIVITY (negative control) — Boltz-2
+==================================================================
+Native binder vs interface-scrambled binder (interface residues permuted,
+composition preserved), folded identically (single-seq, recycling 3, 1 sample).
+Tests whether Boltz-2 ipTM detects a genuine interface disruption.
+
+complex    native     scramble(mean±sd)        Δ
+4oyd        0.953   0.284±0.127      +0.669
+8t5e        0.962   0.558±0.167      +0.403
+9cc5        0.883   0.627±0.178      +0.256
+9nzh        0.934   0.542±0.097      +0.393
+
+MEAN: native 0.933  scramble 0.503  drop +0.430
+
+Interpretation: interface scrambling drops ipTM by 0.43 on the four
+strongest-interface complexes, so Boltz-2 ipTM is highly sensitive to interface
+disruption; the ~0.004 base-vs-deimmunised ipTM difference (Table 2) is therefore a
+genuine null, not validator insensitivity.

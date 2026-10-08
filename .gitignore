@@ -1,0 +1,29 @@
+# trained weights are fetched from Zenodo, never committed (see models/README.md)
+models/*.pt
+models/vanilla/
+models/cape/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# pipeline scratch / large outputs
+out/
+*.cif
+complex/
+pdb/
+redesign/
+*.log
+
+# os / editor
+.DS_Store
+*.swp
+
+# internal author checklist — local paths + pre-publication notes, not for release
+UPLOAD_INSTRUCTIONS.md
+
+# personal working documents — never publish
+STATUS.md
+STATUS.html

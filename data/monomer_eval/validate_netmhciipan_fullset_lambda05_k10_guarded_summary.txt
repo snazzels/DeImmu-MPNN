@@ -1,0 +1,27 @@
+======================================================================
+GUARDED RECOMPUTE — validate_netmhciipan_fullset_lambda05_k10
+======================================================================
+Source CSV (unmodified): validate_netmhciipan_fullset_lambda05_k10.csv
+Column: netmhc_total
+Minimum-base guard: base > 1.0 mean predicted windows
+Assembly-mismatch exclusion: off
+
+Proteins retained: 99
+  excluded, low base : 1  (6fpr_B [0.80])
+  excluded, assembly : 0
+
+── Per-protein means (guarded set) ───────────────────────────
+  Base:       45.01
+  Fine-tuned: 31.59
+  Reduction:  mean 27.88% ± 15.78%  (median 28.10%)
+  Pooled reduction (denominator-free): 29.80%
+  Improved:   92/99 proteins
+
+── Statistical tests (guarded set) ───────────────────────────
+  Paired t-test: p=1.567e-25
+  Wilcoxon:      p=2.665e-17
+
+── For comparison: the historical UNGUARDED convention ───────
+  Reduction:  mean 28.60% ± 17.27%  (median 28.30%)   n=100
+  Shift from applying the guard: -0.72 pp
+======================================================================

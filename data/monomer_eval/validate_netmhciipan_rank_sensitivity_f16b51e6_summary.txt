@@ -1,0 +1,15 @@
+%RANK THRESHOLD SENSITIVITY -- deployed model f16b51e6
+==============================================================================
+designs: 2000 (eval_deimmunisation_sweep_f16b51e6.csv);  unique 15-mers: 476026
+One netMHCIIpan pass per allele; all cutoffs counted from the retained ranks.
+Per-protein reduction excludes proteins with zero base-model presented windows
+(their percentage reduction is undefined).
+
+  cutoff      base  finetuned  reduction   improved
+      1%     23.90      12.95      43.5%      93/99
+      2%     45.79      25.86      37.9%      93/99
+      5%    108.83      65.12      37.8%      95/100
+     10%    209.35     132.88      35.1%      97/100
+
+Interpretation: if the reduction holds across cutoffs, the effect is not an
+artifact of the field-standard 2% strong/weak-binder threshold (R2 P2-7).

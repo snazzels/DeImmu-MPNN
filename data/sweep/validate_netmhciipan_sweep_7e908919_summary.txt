@@ -1,0 +1,29 @@
+=================================================================
+NETMHCIIPAN VALIDATION — CAPE-MPNN sweep_7e908919 vs BASE v_48_020
+=================================================================
+Proteins evaluated: 100
+Sequences per model per protein: 10
+Total sequences: 2000
+Unique 15-mers scored by netMHCIIpan: 467053
+Presentation threshold: %Rank_EL ≤ 2.0%
+
+── netMHCIIpan-predicted presented windows ──────────────────
+  Base model:   mean 46.71 ± 25.92  (median 45.0)
+  Fine-tuned:   mean 32.55 ± 20.24  (median 30.0)
+
+── Per-protein means ─────────────────────────────────────────
+  Base:         46.71 ± 24.19
+  Fine-tuned:   32.55 ± 18.33
+  Reduction:    mean 30.2% ± 15.8%  (median 29.6%)
+  Improved:     96/100 proteins
+
+── Statistical tests ─────────────────────────────────────────
+  Paired t-test:    t=14.447,  p=4.028e-26
+  Wilcoxon:         W=34.5, p=1.098e-17
+
+── PWM vs netMHCIIpan correlation (all sequences) ───────────
+  Pearson r:        0.828  (p=0)
+  Spearman rho:     0.836 (p=0)
+
+Total runtime: 90.9 min
+=================================================================

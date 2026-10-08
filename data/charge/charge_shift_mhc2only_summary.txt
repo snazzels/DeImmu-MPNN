@@ -1,0 +1,26 @@
+============================================================================
+CHARGE / BIOPHYSICS SHIFT FROM DE-IMMUNISATION  [tag: mhc2only]
+============================================================================
+eval_csv: CAPE_MPNN/data/output/eval_deimmunisation_mhc2only_seed42.csv
+
+PRIMARY  (eval_deimmunisation.csv: 100 proteins, 2000 sequences)
+metric                        base    fine-tuned         Δ    paired p
+----------------------------------------------------------------------
+net charge @pH7.4            -8.11        -16.60     -8.49       2e-23
+net charge /100 res          -2.77         -6.20     -3.42       1e-19
+isoelectric point             5.66          5.07     -0.59       1e-16
+GRAVY hydropathy             -0.25         -0.38     -0.13       8e-12
+% acidic (D+E)               15.07         17.81     +2.73       2e-17
+% basic (K+R)                12.30         11.61     -0.69       5e-06
+
+Net charge @pH7.4: base mean -8.1, fine-tuned -16.6
+Sequences net-negative: base 88%  ->  fine-tuned 96%
+pI < 5 (strongly acidic): base 35%  ->  fine-tuned 66%
+
+TRAJECTORY  skipped (no --selfconsistency_csv supplied for this run).
+
+----------------------------------------------------------------------------
+CHARGE SHIFT (data-driven, tag mhc2only)
+  Base -> fine-tuned: acidic +2.7 pp, net charge @pH7.4 -8.1 -> -16.6, pI -0.6.
+  Designs below pI 5: base 35% -> fine-tuned 66%.
+============================================================================

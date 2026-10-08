@@ -1,0 +1,66 @@
+APPROVED-BIOLOGICS REFERENCE POINT (P2-2 / R3)
+========================================================================================
+scorer  : Rosetta mhc_epitope, Matrix predictor using propred8; 8 alleles; threshold 5; xform raw
+designs : rosetta_mhc_epitope_f16b51e6.csv
+sequences: biologics_reference_f16b51e6_sequences.fasta (12 products, mature chains only)
+metric  : fraction of valid 9-mer windows predicted to bind >=1 of 8 HLA-DR alleles
+
+ACCEPTANCE TEST PASSED: ProPred reference peptide scores 7/8, so this is the same
+instrument as the design benchmark and the two are on one scale.
+
+  product                   organism                    len  epi.frac   per100
+  ------------------------------------------------------------------------------------
+  albumin                   Homo sapiens                585     0.118     11.6
+  streptokinase             Streptococcus dysgalactia   414     0.118     11.6
+  factor IX                 Homo sapiens                795     0.131     12.7
+  insulin                   Homo sapiens                 51     0.143      9.8
+  L-asparaginase            Escherichia coli (strain    326     0.148     14.4
+  somatropin (hGH)          Homo sapiens                191     0.158     15.2
+  epoetin (EPO)             Homo sapiens                166     0.165     15.7
+  teriparatide (PTH 1-84)   Homo sapiens                 84     0.171     15.5
+  filgrastim (G-CSF)        Homo sapiens                177     0.178     16.9
+  interferon alfa-2         Homo sapiens                165     0.185     17.6
+  aldesleukin (IL-2)        Homo sapiens                133     0.224     21.1
+  interferon beta           Homo sapiens                166     0.253     24.1
+
+  biologics: median 0.162  range 0.118-0.253  (n=12)
+
+DESIGNS ON THE SAME SCALE (per-protein means)
+  arm                           n    median     mean               IQR
+  --------------------------------------------------------------------
+  base ProteinMPNN            100     0.141    0.139       0.122-0.162
+  de-immunised                100     0.124    0.123       0.109-0.144
+
+WHERE THE DESIGNS SIT
+  base ProteinMPNN     median 0.141 -- above 25% of the biologics scored here
+  de-immunised         median 0.124 -- above 17% of the biologics scored here
+
+READING (fixed before the numbers were computed):
+  De-immunised designs falling INTO the biologics range -> the reduction reaches a
+    level that proteins already dosed in humans occupy, and the paper can say so
+    with this as support.
+  De-immunised designs still ABOVE every biologic -> the reduction is real but
+    the level is not yet comparable to an approved product. That is the honest
+    framing, and it makes the reduction a step rather than an arrival.
+  Base designs already inside the range -> the starting point was not unusually
+    epitope-rich, and the reduction should not be sold as fixing a pathology.
+
+  OBSERVED: de-immunised median 0.124 lies within the biologics range (0.118-0.253),
+            above 17% of them; base median 0.141 lies above 25%.
+
+CAVEATS THAT LIMIT WHAT THIS CAN SUPPORT.
+  1. Two unrelated populations. Natural therapeutic proteins and ProteinMPNN
+     designs differ in composition, length, fold class and origin at once, so no
+     difference here is attributable to any one cause. Reference scale, not a
+     controlled comparison. The controlled comparison is base-vs-fine-tuned on
+     identical backbones, reported elsewhere in this work.
+  2. Predicted presentation is not immunogenicity. Approved biologics with low
+     predicted burden can still raise anti-drug antibodies, and human-sequence
+     products benefit from central tolerance that no predictor here represents --
+     which is precisely why they can be dosed despite the burden they show.
+  3. Twelve products is a small, hand-picked set spanning a range, not a sample
+     of approved biologics. Quartiles of this set are not population quantiles.
+  4. ProPred, not netMHCIIpan. This sits on the conservative instrument of the
+     two (P2-1). Run the FASTA through netMHCIIpan to place the reference point
+     on the manuscript's primary axis.
+========================================================================================

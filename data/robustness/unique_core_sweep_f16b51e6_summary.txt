@@ -1,0 +1,29 @@
+UNIQUE-BINDING-CORE SENSITIVITY (P1-1 / R2-W4)
+==============================================================================
+source CSV : validate_netmhciipan_sweep_f16b51e6.csv
+scorer     : netMHCIIpan-4.3, %Rank_EL <= 2.0, 6 HLA-DRB1 alleles
+guard      : per-protein mean base burden > 1.0
+unique 15-mers scored : 476086
+
+ACCEPTANCE TEST PASSED: every per-design window count reproduces the published
+'netmhc_total' exactly, so the core-based counts sit on the same footing.
+
+  metric                       n    mean %      sd  pooled %  impr.   Wilcoxon
+  ----------------------------------------------------------------------------
+  n_windows                   98     41.36   18.95     43.50     93   2.36e-17
+  n_unique_pairs              98     39.54   17.21     41.67     95   1.85e-17
+
+  windows per unique (allele, core) pair:  base 2.70   fine-tuned 2.61
+
+READING (fixed before the numbers were computed):
+  The window metric and the unique-core metric agreeing to within ~2 pp means the
+  reduction is not an artefact of overlap counting, and 'conservative' is then
+  supported rather than asserted.
+  The window reduction exceeding the unique-core reduction by a wide margin means
+  de-immunisation is shortening runs of presented windows more than it is removing
+  distinct binding cores, and the headline is inflated by the metric. In that case
+  the unique-core figure, not the window figure, is the one to lead with.
+
+  OBSERVED: window 41.36% vs unique-core 39.54%, a difference of +1.82 pp.
+  -> The two metrics agree. The overlap-counting objection does not bite.
+==============================================================================

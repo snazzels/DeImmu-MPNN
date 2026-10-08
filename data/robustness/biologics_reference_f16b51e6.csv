@@ -1,0 +1,13 @@
+accession,product,class,organism,chains,length,n_windows_valid,n_windows_dropped,propred_windows,propred_alleles,epitope_fraction,per_100_residues
+P02768,albumin,"plasma protein, human sequence",Homo sapiens,Albumin,585,577,0,68,156.0,0.11785095320623917,11.623931623931623
+P00779,streptokinase,"enzyme, S. pyogenes",Streptococcus dysgalactiae subsp. equisimilis,Streptokinase C,414,406,0,48,100.0,0.11822660098522167,11.594202898550725
+P00740,factor IX,"coagulation factor, human sequence",Homo sapiens,Coagulation factor IXa light chain; Coagulation factor IX; Coagulation factor IXa heavy chain,795,771,18,101,233.0,0.1309987029831388,12.70440251572327
+P01308,insulin,"hormone, human sequence",Homo sapiens,Insulin B chain; Insulin A chain,51,35,9,5,11.0,0.14285714285714285,9.803921568627452
+P00805,L-asparaginase,"enzyme, E. coli",Escherichia coli (strain K12),L-asparaginase 2,326,318,0,47,137.0,0.14779874213836477,14.417177914110429
+P01241,somatropin (hGH),"hormone, human sequence",Homo sapiens,Somatotropin,191,183,0,29,83.0,0.15846994535519127,15.18324607329843
+P01588,epoetin (EPO),"cytokine, human sequence",Homo sapiens,Erythropoietin,166,158,0,26,63.0,0.16455696202531644,15.662650602409638
+P01270,teriparatide (PTH 1-84),"hormone, human sequence",Homo sapiens,Parathyroid hormone,84,76,0,13,29.0,0.17105263157894737,15.476190476190476
+P09919,filgrastim (G-CSF),"cytokine, human sequence",Homo sapiens,Granulocyte colony-stimulating factor,177,169,0,30,73.0,0.17751479289940827,16.949152542372882
+P01563,interferon alfa-2,"cytokine, human sequence",Homo sapiens,Interferon alpha-2,165,157,0,29,81.0,0.18471337579617833,17.575757575757574
+P60568,aldesleukin (IL-2),"cytokine, human sequence",Homo sapiens,Interleukin-2,133,125,0,28,71.0,0.224,21.05263157894737
+P01574,interferon beta,"cytokine, human sequence",Homo sapiens,Interferon beta,166,158,0,40,104.0,0.25316455696202533,24.096385542168676

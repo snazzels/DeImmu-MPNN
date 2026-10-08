@@ -1,0 +1,27 @@
+======================================================================
+GUARDED RECOMPUTE — validate_netmhcpan_mhc1_fullset_mhcionly_k5
+======================================================================
+Source CSV (unmodified): validate_netmhcpan_mhc1_fullset_mhcionly_k5.csv
+Column: netmhc_total
+Minimum-base guard: base > 1.0 mean predicted windows
+Assembly-mismatch exclusion: off
+
+Proteins retained: 100
+  excluded, low base : 0
+  excluded, assembly : 0
+
+── Per-protein means (guarded set) ───────────────────────────
+  Base:       129.33
+  Fine-tuned: 65.56
+  Reduction:  mean 49.16% ± 8.78%  (median 49.88%)
+  Pooled reduction (denominator-free): 49.31%
+  Improved:   100/100 proteins
+
+── Statistical tests (guarded set) ───────────────────────────
+  Paired t-test: p=1.938e-32
+  Wilcoxon:      p=3.893e-18
+
+── For comparison: the historical UNGUARDED convention ───────
+  Reduction:  mean 49.16% ± 8.78%  (median 49.88%)   n=100
+  Shift from applying the guard: +0.00 pp
+======================================================================

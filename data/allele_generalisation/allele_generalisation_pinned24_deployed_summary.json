@@ -1,0 +1,77 @@
+{
+  "groups": {
+    "trained DRB1": {
+      "n_alleles": 6,
+      "base_per_allele": 7.526041666666667,
+      "ft_per_allele": 4.322916666666667,
+      "reduction_pct": 42.56055363321799,
+      "wilcoxon_p": 3.5762786865234375e-07,
+      "improved": 23,
+      "n_proteins": 24
+    },
+    "held-out DRB1": {
+      "n_alleles": 6,
+      "base_per_allele": 7.657986111111111,
+      "ft_per_allele": 4.645833333333333,
+      "reduction_pct": 39.33348447064158,
+      "wilcoxon_p": 5.960464477539062e-07,
+      "improved": 23,
+      "n_proteins": 24
+    },
+    "DRB3/4/5": {
+      "n_alleles": 3,
+      "base_per_allele": 6.677083333333333,
+      "ft_per_allele": 3.951388888888889,
+      "reduction_pct": 40.82163286531461,
+      "wilcoxon_p": 2.2649765014648438e-06,
+      "improved": 21,
+      "n_proteins": 24
+    },
+    "HLA-DQ": {
+      "n_alleles": 3,
+      "base_per_allele": 7.888888888888888,
+      "ft_per_allele": 4.118055555555556,
+      "reduction_pct": 47.79929577464789,
+      "wilcoxon_p": 1.633167266845703e-05,
+      "improved": 21,
+      "n_proteins": 24
+    },
+    "HLA-DP": {
+      "n_alleles": 3,
+      "base_per_allele": 8.045138888888888,
+      "ft_per_allele": 6.982638888888889,
+      "reduction_pct": 13.20673284419508,
+      "wilcoxon_p": 0.07761763523803308,
+      "improved": 13,
+      "n_proteins": 24
+    }
+  },
+  "protein_set": [
+    "1y9l_A",
+    "1zx4_C",
+    "2gj8_B",
+    "2rfr_A",
+    "3fnr_A",
+    "3g73_B",
+    "3hj7_A",
+    "3qp3_B",
+    "3tvz_A",
+    "4kqd_A",
+    "4lor_A",
+    "4n4u_A",
+    "4oyu_A",
+    "4pyr_A",
+    "4qpm_A",
+    "4tql_B",
+    "4wyi_A",
+    "5els_A",
+    "5htx_A",
+    "5o75_A",
+    "6i9s_B",
+    "6r1g_B",
+    "6y93_A",
+    "6zul_E"
+  ],
+  "protein_set_md5": "9cae3da74828",
+  "n_proteins": 24
+}

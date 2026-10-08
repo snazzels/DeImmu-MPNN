@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software or the released models, please cite the paper below and the original CAPE-MPNN."
+title: "DeImmu-MPNN: Reducing Immunogenicity Burden in De Novo Protein Design"
+authors:
+  - family-names: "Halbwedl"
+    given-names: "Niklas"
+    affiliation: "Department of Biosciences, Center for Protein Assemblies, Technical University of Munich, Garching, Germany"
+  - family-names: "Springer"
+    given-names: "Sebastian"
+    affiliation: "School of Science, Constructor University, Bremen, Germany"
+  - family-names: "Zacharias"
+    given-names: "Martin"
+    affiliation: "Department of Biosciences, Center for Protein Assemblies, Technical University of Munich, Garching, Germany"
+    email: "zacharias@tum.de"
+version: "0.1.0"
+# UPDATE to the actual release date on the day the repository is published.
+date-released: "2026-10-02"
+license: MIT
+repository-code: "https://github.com/snazzels/DeImmu-MPNN"
+preferred-citation:
+  type: article
+  title: "DeImmu-MPNN: Reducing Immunogenicity Burden in De Novo Protein Design"
+  authors:
+    - family-names: "Halbwedl"
+      given-names: "Niklas"
+    - family-names: "Springer"
+      given-names: "Sebastian"
+    - family-names: "Zacharias"
+      given-names: "Martin"
+  year: 2026
+  doi: "REPLACE_WITH_DOI"
+references:
+  - type: software
+    title: "CAPE-MPNN"
+    authors:
+      - family-names: "Gasser"
+        given-names: "Hans-Christof"
+    year: 2025
+    repository-code: "https://github.com/hcgasser/CAPE_MPNN"
+  - type: software
+    title: "ProteinMPNN"
+    authors:
+      - family-names: "Dauparas"
+        given-names: "Justas"
+    year: 2022
+    repository-code: "https://github.com/dauparas/ProteinMPNN"

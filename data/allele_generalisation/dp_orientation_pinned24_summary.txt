@@ -1,0 +1,67 @@
+HLA-DP ORIENTATION / INVERTED-BINDING RE-SCORE (P0-5 step 2)
+==============================================================================
+arms      : deployed, mhc2only  (matched: 24 proteins, shared base arm)
+scorer    : netMHCIIpan-4.3, %Rank_EL <= 2.0, Inverted = column 6 (0-based)
+guard     : per-protein reduction excludes mean base burden <= 1.0
+unique 15-mers scored : 72291
+
+ACCEPTANCE TEST PASSED: with orientation ignored, every per-design count reproduces
+the published n_<allele> exactly. Orientation is therefore the only new variable.
+
+------------------------------------------------------------------------------
+(a) INVERTED FRACTION OF PRESENTED WINDOWS (%Rank_EL <= 2)
+    Step 1's 22.8/6.7/8.8% were over ALL probe 15-mers, unthresholded and
+    arm-pooled. These are the presented-window fractions, split by arm and
+    model -- these are the reportable ones.
+
+    allele                   arm                  base     fine-tuned
+    HLA-DPA10201-DPB10101    deployed   209/1150 (18.2%) 236/1114 (21.2%)
+    HLA-DPA10201-DPB10101    mhc2only   209/1150 (18.2%) 102/556 (18.3%)
+    HLA-DPA10103-DPB10401    deployed     1/606 (0.2%)   4/425 (0.9%)
+    HLA-DPA10103-DPB10401    mhc2only     1/606 (0.2%)   0/508 (0.0%)
+    HLA-DPA10103-DPB10201    deployed    13/561 (2.3%)   6/472 (1.3%)
+    HLA-DPA10103-DPB10201    mhc2only    13/561 (2.3%)  16/416 (3.8%)
+
+------------------------------------------------------------------------------
+(b) BASE-vs-FINE-TUNED DP REDUCTION: ALL WINDOWS vs FORWARD ONLY
+    'all' must match the published pooled numbers (it is the acceptance test).
+    'forward' is the confound-free comparison.
+
+    allele                   arm            all %   forward %    delta  fwd n  excl
+    HLA-DPA10201-DPB10101    deployed       3.13       6.70    +3.56     21     3
+    HLA-DPA10201-DPB10101    mhc2only      51.65      51.75    +0.10     21     3
+    HLA-DPA10103-DPB10401    deployed      29.87      30.41    +0.55     20     4
+    HLA-DPA10103-DPB10401    mhc2only      16.17      16.03    -0.14     20     4
+    HLA-DPA10103-DPB10201    deployed      15.86      14.96    -0.90     21     3
+    HLA-DPA10103-DPB10201    mhc2only      25.85      27.01    +1.16     21     3
+
+------------------------------------------------------------------------------
+(c) FORWARD-ONLY, PER-PROTEIN GUARDED MEAN + PAIRED TEST
+
+    allele                   arm           mean %      sd    n  improved   Wilcoxon p
+    HLA-DPA10201-DPB10101    deployed      -0.39   41.66   21        11     4.12e-01
+    HLA-DPA10201-DPB10101    mhc2only      53.83   26.88   21        20     8.83e-05
+    HLA-DPA10103-DPB10401    deployed      30.96   40.18   20        15     2.21e-03
+    HLA-DPA10103-DPB10401    mhc2only      16.02   35.22   20        13     1.03e-01
+    HLA-DPA10103-DPB10201    deployed      13.51   45.75   21        13     3.25e-02
+    HLA-DPA10103-DPB10201    mhc2only      30.70   25.37   21        18     4.26e-04
+
+------------------------------------------------------------------------------
+READING (fixed before the numbers were computed):
+  The claim at risk is the locus-level recommendation 'where HLA-DP coverage
+  matters, use the class-II-only checkpoint', which rests entirely on
+  DPA1*02:01-DPB1*01:01 -- the canonical inverted binder.
+
+  If the deployed-vs-class-II-only GAP at that heterodimer SURVIVES forward-only
+  scoring -> inversion is not the explanation; the objective-based account is
+  strengthened and the paper gains a result.
+  If the gap COLLAPSES -> the recommendation rests on a scoring-register
+  artefact and must be reworded.
+
+  AT DPA1*02:01-DPB1*01:01:
+    gap (class-II-only - deployed), all windows   : +48.52 pp
+    gap (class-II-only - deployed), forward only  : +45.06 pp
+    the gap retains 93% of its all-windows size
+
+  Do not round either outcome into the other. Report the split.
+

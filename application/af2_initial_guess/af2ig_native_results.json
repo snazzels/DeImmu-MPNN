@@ -1,0 +1,2719 @@
+{
+  "9kku": {
+    "native": {
+      "pae_interaction": 25.04,
+      "plddt_binder": 73.587,
+      "ptm": 0.741
+    },
+    "base_1": {
+      "pae_interaction": 28.11,
+      "plddt_binder": 63.393,
+      "ptm": 0.736
+    },
+    "base_2": {
+      "pae_interaction": 27.29,
+      "plddt_binder": 64.659,
+      "ptm": 0.737
+    },
+    "base_3": {
+      "pae_interaction": 26.93,
+      "plddt_binder": 74.255,
+      "ptm": 0.737
+    },
+    "base_4": {
+      "pae_interaction": 27.09,
+      "plddt_binder": 72.503,
+      "ptm": 0.737
+    },
+    "base_5": {
+      "pae_interaction": 27.52,
+      "plddt_binder": 61.226,
+      "ptm": 0.737
+    },
+    "base_6": {
+      "pae_interaction": 27.66,
+      "plddt_binder": 75.354,
+      "ptm": 0.736
+    },
+    "base_7": {
+      "pae_interaction": 27.07,
+      "plddt_binder": 71.642,
+      "ptm": 0.737
+    },
+    "base_8": {
+      "pae_interaction": 27.63,
+      "plddt_binder": 75.96,
+      "ptm": 0.736
+    },
+    "base_9": {
+      "pae_interaction": 27.05,
+      "plddt_binder": 68.31,
+      "ptm": 0.738
+    },
+    "base_10": {
+      "pae_interaction": 27.38,
+      "plddt_binder": 71.103,
+      "ptm": 0.737
+    },
+    "base_11": {
+      "pae_interaction": 26.99,
+      "plddt_binder": 71.895,
+      "ptm": 0.736
+    },
+    "base_12": {
+      "pae_interaction": 27.98,
+      "plddt_binder": 77.497,
+      "ptm": 0.736
+    },
+    "base_13": {
+      "pae_interaction": 27.84,
+      "plddt_binder": 78.84,
+      "ptm": 0.737
+    },
+    "base_14": {
+      "pae_interaction": 28.35,
+      "plddt_binder": 76.375,
+      "ptm": 0.734
+    },
+    "base_15": {
+      "pae_interaction": 26.41,
+      "plddt_binder": 61.149,
+      "ptm": 0.74
+    },
+    "base_16": {
+      "pae_interaction": 28.07,
+      "plddt_binder": 63.015,
+      "ptm": 0.734
+    },
+    "base_17": {
+      "pae_interaction": 27.37,
+      "plddt_binder": 71.993,
+      "ptm": 0.738
+    },
+    "base_18": {
+      "pae_interaction": 28.14,
+      "plddt_binder": 64.666,
+      "ptm": 0.737
+    },
+    "base_19": {
+      "pae_interaction": 26.29,
+      "plddt_binder": 54.133,
+      "ptm": 0.739
+    },
+    "base_20": {
+      "pae_interaction": 27.12,
+      "plddt_binder": 62.61,
+      "ptm": 0.738
+    },
+    "base_21": {
+      "pae_interaction": 26.78,
+      "plddt_binder": 61.307,
+      "ptm": 0.739
+    },
+    "base_22": {
+      "pae_interaction": 27.62,
+      "plddt_binder": 73.369,
+      "ptm": 0.736
+    },
+    "base_23": {
+      "pae_interaction": 28.21,
+      "plddt_binder": 62.814,
+      "ptm": 0.733
+    },
+    "base_24": {
+      "pae_interaction": 26.17,
+      "plddt_binder": 56.232,
+      "ptm": 0.741
+    },
+    "cape_1": {
+      "pae_interaction": 28.02,
+      "plddt_binder": 73.694,
+      "ptm": 0.738
+    },
+    "cape_2": {
+      "pae_interaction": 27.64,
+      "plddt_binder": 71.971,
+      "ptm": 0.741
+    },
+    "cape_3": {
+      "pae_interaction": 28.2,
+      "plddt_binder": 75.3,
+      "ptm": 0.735
+    },
+    "cape_4": {
+      "pae_interaction": 28.05,
+      "plddt_binder": 75.927,
+      "ptm": 0.737
+    },
+    "cape_5": {
+      "pae_interaction": 28.68,
+      "plddt_binder": 73.107,
+      "ptm": 0.733
+    },
+    "cape_6": {
+      "pae_interaction": 28.3,
+      "plddt_binder": 69.424,
+      "ptm": 0.734
+    },
+    "cape_7": {
+      "pae_interaction": 27.8,
+      "plddt_binder": 73.056,
+      "ptm": 0.739
+    },
+    "cape_8": {
+      "pae_interaction": 28.09,
+      "plddt_binder": 65.783,
+      "ptm": 0.738
+    },
+    "cape_9": {
+      "pae_interaction": 28.21,
+      "plddt_binder": 62.582,
+      "ptm": 0.737
+    },
+    "cape_10": {
+      "pae_interaction": 27.82,
+      "plddt_binder": 71.909,
+      "ptm": 0.739
+    },
+    "cape_11": {
+      "pae_interaction": 27.86,
+      "plddt_binder": 67.318,
+      "ptm": 0.737
+    },
+    "cape_12": {
+      "pae_interaction": 27.89,
+      "plddt_binder": 74.244,
+      "ptm": 0.737
+    },
+    "cape_13": {
+      "pae_interaction": 27.9,
+      "plddt_binder": 61.009,
+      "ptm": 0.738
+    },
+    "cape_14": {
+      "pae_interaction": 27.99,
+      "plddt_binder": 77.217,
+      "ptm": 0.738
+    },
+    "cape_15": {
+      "pae_interaction": 27.56,
+      "plddt_binder": 77.857,
+      "ptm": 0.735
+    },
+    "cape_16": {
+      "pae_interaction": 28.13,
+      "plddt_binder": 75.413,
+      "ptm": 0.734
+    },
+    "cape_17": {
+      "pae_interaction": 27.55,
+      "plddt_binder": 73.288,
+      "ptm": 0.738
+    },
+    "cape_18": {
+      "pae_interaction": 27.97,
+      "plddt_binder": 74.777,
+      "ptm": 0.737
+    },
+    "cape_19": {
+      "pae_interaction": 28.11,
+      "plddt_binder": 82.772,
+      "ptm": 0.736
+    },
+    "cape_20": {
+      "pae_interaction": 27.33,
+      "plddt_binder": 71.57,
+      "ptm": 0.737
+    },
+    "cape_21": {
+      "pae_interaction": 27.77,
+      "plddt_binder": 74.162,
+      "ptm": 0.735
+    },
+    "cape_22": {
+      "pae_interaction": 28.08,
+      "plddt_binder": 82.722,
+      "ptm": 0.736
+    },
+    "cape_23": {
+      "pae_interaction": 27.51,
+      "plddt_binder": 72.057,
+      "ptm": 0.736
+    },
+    "cape_24": {
+      "pae_interaction": 28.21,
+      "plddt_binder": 81.116,
+      "ptm": 0.736
+    }
+  },
+  "9ju1": {
+    "native": {
+      "pae_interaction": 27.75,
+      "plddt_binder": 82.083,
+      "ptm": 0.581
+    },
+    "base_1": {
+      "pae_interaction": 25.44,
+      "plddt_binder": 85.954,
+      "ptm": 0.584
+    },
+    "base_2": {
+      "pae_interaction": 26.27,
+      "plddt_binder": 86.187,
+      "ptm": 0.581
+    },
+    "base_3": {
+      "pae_interaction": 25.47,
+      "plddt_binder": 87.4,
+      "ptm": 0.583
+    },
+    "base_4": {
+      "pae_interaction": 26.34,
+      "plddt_binder": 85.8,
+      "ptm": 0.582
+    },
+    "base_5": {
+      "pae_interaction": 25.92,
+      "plddt_binder": 86.983,
+      "ptm": 0.582
+    },
+    "base_6": {
+      "pae_interaction": 25.74,
+      "plddt_binder": 87.118,
+      "ptm": 0.581
+    },
+    "base_7": {
+      "pae_interaction": 25.57,
+      "plddt_binder": 87.729,
+      "ptm": 0.583
+    },
+    "base_8": {
+      "pae_interaction": 26.59,
+      "plddt_binder": 84.844,
+      "ptm": 0.579
+    },
+    "base_9": {
+      "pae_interaction": 26.15,
+      "plddt_binder": 87.332,
+      "ptm": 0.584
+    },
+    "base_10": {
+      "pae_interaction": 26.57,
+      "plddt_binder": 85.078,
+      "ptm": 0.581
+    },
+    "base_11": {
+      "pae_interaction": 25.99,
+      "plddt_binder": 87.642,
+      "ptm": 0.581
+    },
+    "base_12": {
+      "pae_interaction": 26.04,
+      "plddt_binder": 87.189,
+      "ptm": 0.582
+    },
+    "base_13": {
+      "pae_interaction": 25.51,
+      "plddt_binder": 86.24,
+      "ptm": 0.583
+    },
+    "base_14": {
+      "pae_interaction": 26.22,
+      "plddt_binder": 87.221,
+      "ptm": 0.582
+    },
+    "base_15": {
+      "pae_interaction": 24.5,
+      "plddt_binder": 87.168,
+      "ptm": 0.583
+    },
+    "base_16": {
+      "pae_interaction": 25.83,
+      "plddt_binder": 88.076,
+      "ptm": 0.582
+    },
+    "base_17": {
+      "pae_interaction": 25.86,
+      "plddt_binder": 86.923,
+      "ptm": 0.584
+    },
+    "base_18": {
+      "pae_interaction": 25.67,
+      "plddt_binder": 83.359,
+      "ptm": 0.584
+    },
+    "base_19": {
+      "pae_interaction": 26.67,
+      "plddt_binder": 82.012,
+      "ptm": 0.584
+    },
+    "base_20": {
+      "pae_interaction": 24.97,
+      "plddt_binder": 88.503,
+      "ptm": 0.584
+    },
+    "base_21": {
+      "pae_interaction": 26.99,
+      "plddt_binder": 87.149,
+      "ptm": 0.58
+    },
+    "base_22": {
+      "pae_interaction": 26.73,
+      "plddt_binder": 86.435,
+      "ptm": 0.58
+    },
+    "base_23": {
+      "pae_interaction": 25.93,
+      "plddt_binder": 85.442,
+      "ptm": 0.584
+    },
+    "base_24": {
+      "pae_interaction": 24.95,
+      "plddt_binder": 88.061,
+      "ptm": 0.586
+    },
+    "cape_1": {
+      "pae_interaction": 25.96,
+      "plddt_binder": 85.823,
+      "ptm": 0.584
+    },
+    "cape_2": {
+      "pae_interaction": 26.02,
+      "plddt_binder": 87.977,
+      "ptm": 0.584
+    },
+    "cape_3": {
+      "pae_interaction": 25.9,
+      "plddt_binder": 88.078,
+      "ptm": 0.584
+    },
+    "cape_4": {
+      "pae_interaction": 25.64,
+      "plddt_binder": 88.206,
+      "ptm": 0.583
+    },
+    "cape_5": {
+      "pae_interaction": 25.42,
+      "plddt_binder": 87.816,
+      "ptm": 0.582
+    },
+    "cape_6": {
+      "pae_interaction": 25.69,
+      "plddt_binder": 88.011,
+      "ptm": 0.583
+    },
+    "cape_7": {
+      "pae_interaction": 24.97,
+      "plddt_binder": 88.352,
+      "ptm": 0.585
+    },
+    "cape_8": {
+      "pae_interaction": 25.94,
+      "plddt_binder": 88.587,
+      "ptm": 0.58
+    },
+    "cape_9": {
+      "pae_interaction": 26.24,
+      "plddt_binder": 84.583,
+      "ptm": 0.584
+    },
+    "cape_10": {
+      "pae_interaction": 25.75,
+      "plddt_binder": 88.601,
+      "ptm": 0.582
+    },
+    "cape_11": {
+      "pae_interaction": 26.17,
+      "plddt_binder": 87.487,
+      "ptm": 0.581
+    },
+    "cape_12": {
+      "pae_interaction": 26.47,
+      "plddt_binder": 84.964,
+      "ptm": 0.58
+    },
+    "cape_13": {
+      "pae_interaction": 25.4,
+      "plddt_binder": 86.9,
+      "ptm": 0.582
+    },
+    "cape_14": {
+      "pae_interaction": 25.33,
+      "plddt_binder": 88.801,
+      "ptm": 0.582
+    },
+    "cape_15": {
+      "pae_interaction": 24.97,
+      "plddt_binder": 87.584,
+      "ptm": 0.585
+    },
+    "cape_16": {
+      "pae_interaction": 25.24,
+      "plddt_binder": 88.67,
+      "ptm": 0.582
+    },
+    "cape_17": {
+      "pae_interaction": 26.19,
+      "plddt_binder": 87.914,
+      "ptm": 0.58
+    },
+    "cape_18": {
+      "pae_interaction": 26.89,
+      "plddt_binder": 85.795,
+      "ptm": 0.582
+    },
+    "cape_19": {
+      "pae_interaction": 24.8,
+      "plddt_binder": 86.732,
+      "ptm": 0.586
+    },
+    "cape_20": {
+      "pae_interaction": 26.36,
+      "plddt_binder": 89.134,
+      "ptm": 0.582
+    },
+    "cape_21": {
+      "pae_interaction": 25.28,
+      "plddt_binder": 88.401,
+      "ptm": 0.583
+    },
+    "cape_22": {
+      "pae_interaction": 26.24,
+      "plddt_binder": 88.111,
+      "ptm": 0.581
+    },
+    "cape_23": {
+      "pae_interaction": 26.84,
+      "plddt_binder": 88.892,
+      "ptm": 0.58
+    },
+    "cape_24": {
+      "pae_interaction": 24.07,
+      "plddt_binder": 87.945,
+      "ptm": 0.587
+    }
+  },
+  "8upa": {
+    "native": {
+      "pae_interaction": 6.05,
+      "plddt_binder": 90.692,
+      "ptm": 0.853
+    },
+    "base_1": {
+      "pae_interaction": 6.43,
+      "plddt_binder": 89.066,
+      "ptm": 0.844
+    },
+    "base_2": {
+      "pae_interaction": 7.13,
+      "plddt_binder": 88.09,
+      "ptm": 0.836
+    },
+    "base_3": {
+      "pae_interaction": 20.33,
+      "plddt_binder": 74.912,
+      "ptm": 0.734
+    },
+    "base_4": {
+      "pae_interaction": 6.62,
+      "plddt_binder": 88.347,
+      "ptm": 0.843
+    },
+    "base_5": {
+      "pae_interaction": 7.32,
+      "plddt_binder": 87.006,
+      "ptm": 0.837
+    },
+    "base_6": {
+      "pae_interaction": 7.49,
+      "plddt_binder": 86.532,
+      "ptm": 0.834
+    },
+    "base_7": {
+      "pae_interaction": 7.33,
+      "plddt_binder": 87.499,
+      "ptm": 0.834
+    },
+    "base_8": {
+      "pae_interaction": 6.92,
+      "plddt_binder": 87.819,
+      "ptm": 0.839
+    },
+    "base_9": {
+      "pae_interaction": 7.6,
+      "plddt_binder": 87.012,
+      "ptm": 0.834
+    },
+    "base_10": {
+      "pae_interaction": 8.47,
+      "plddt_binder": 84.887,
+      "ptm": 0.826
+    },
+    "base_11": {
+      "pae_interaction": 6.33,
+      "plddt_binder": 90.514,
+      "ptm": 0.845
+    },
+    "base_12": {
+      "pae_interaction": 7.01,
+      "plddt_binder": 88.222,
+      "ptm": 0.841
+    },
+    "base_13": {
+      "pae_interaction": 7.74,
+      "plddt_binder": 86.897,
+      "ptm": 0.833
+    },
+    "base_14": {
+      "pae_interaction": 26.91,
+      "plddt_binder": 73.291,
+      "ptm": 0.704
+    },
+    "base_15": {
+      "pae_interaction": 6.61,
+      "plddt_binder": 89.426,
+      "ptm": 0.843
+    },
+    "base_16": {
+      "pae_interaction": 10.17,
+      "plddt_binder": 82.575,
+      "ptm": 0.808
+    },
+    "base_17": {
+      "pae_interaction": 7.42,
+      "plddt_binder": 86.045,
+      "ptm": 0.838
+    },
+    "base_18": {
+      "pae_interaction": 8.67,
+      "plddt_binder": 84.899,
+      "ptm": 0.824
+    },
+    "base_19": {
+      "pae_interaction": 27.82,
+      "plddt_binder": 78.888,
+      "ptm": 0.702
+    },
+    "base_20": {
+      "pae_interaction": 7.46,
+      "plddt_binder": 87.545,
+      "ptm": 0.836
+    },
+    "base_21": {
+      "pae_interaction": 7.31,
+      "plddt_binder": 87.089,
+      "ptm": 0.836
+    },
+    "base_22": {
+      "pae_interaction": 27.07,
+      "plddt_binder": 74.439,
+      "ptm": 0.702
+    },
+    "base_23": {
+      "pae_interaction": 8.33,
+      "plddt_binder": 85.211,
+      "ptm": 0.826
+    },
+    "base_24": {
+      "pae_interaction": 27.44,
+      "plddt_binder": 71.181,
+      "ptm": 0.7
+    },
+    "cape_1": {
+      "pae_interaction": 8.17,
+      "plddt_binder": 85.472,
+      "ptm": 0.832
+    },
+    "cape_2": {
+      "pae_interaction": 7.33,
+      "plddt_binder": 87.638,
+      "ptm": 0.837
+    },
+    "cape_3": {
+      "pae_interaction": 5.88,
+      "plddt_binder": 90.914,
+      "ptm": 0.849
+    },
+    "cape_4": {
+      "pae_interaction": 6.9,
+      "plddt_binder": 89.858,
+      "ptm": 0.84
+    },
+    "cape_5": {
+      "pae_interaction": 6.67,
+      "plddt_binder": 88.56,
+      "ptm": 0.844
+    },
+    "cape_6": {
+      "pae_interaction": 6.91,
+      "plddt_binder": 88.389,
+      "ptm": 0.84
+    },
+    "cape_7": {
+      "pae_interaction": 5.88,
+      "plddt_binder": 90.958,
+      "ptm": 0.849
+    },
+    "cape_8": {
+      "pae_interaction": 7.06,
+      "plddt_binder": 87.493,
+      "ptm": 0.839
+    },
+    "cape_9": {
+      "pae_interaction": 28.16,
+      "plddt_binder": 76.681,
+      "ptm": 0.7
+    },
+    "cape_10": {
+      "pae_interaction": 7.68,
+      "plddt_binder": 87.45,
+      "ptm": 0.833
+    },
+    "cape_11": {
+      "pae_interaction": 6.73,
+      "plddt_binder": 88.981,
+      "ptm": 0.843
+    },
+    "cape_12": {
+      "pae_interaction": 7.45,
+      "plddt_binder": 87.4,
+      "ptm": 0.836
+    },
+    "cape_13": {
+      "pae_interaction": 8.36,
+      "plddt_binder": 85.948,
+      "ptm": 0.826
+    },
+    "cape_14": {
+      "pae_interaction": 6.8,
+      "plddt_binder": 88.606,
+      "ptm": 0.841
+    },
+    "cape_15": {
+      "pae_interaction": 27.58,
+      "plddt_binder": 76.847,
+      "ptm": 0.703
+    },
+    "cape_16": {
+      "pae_interaction": 6.95,
+      "plddt_binder": 87.956,
+      "ptm": 0.842
+    },
+    "cape_17": {
+      "pae_interaction": 5.98,
+      "plddt_binder": 90.634,
+      "ptm": 0.85
+    },
+    "cape_18": {
+      "pae_interaction": 27.74,
+      "plddt_binder": 73.84,
+      "ptm": 0.703
+    },
+    "cape_19": {
+      "pae_interaction": 10.4,
+      "plddt_binder": 81.557,
+      "ptm": 0.807
+    },
+    "cape_20": {
+      "pae_interaction": 6.32,
+      "plddt_binder": 90.187,
+      "ptm": 0.846
+    },
+    "cape_21": {
+      "pae_interaction": 27.47,
+      "plddt_binder": 72.184,
+      "ptm": 0.701
+    },
+    "cape_22": {
+      "pae_interaction": 6.46,
+      "plddt_binder": 88.823,
+      "ptm": 0.845
+    },
+    "cape_23": {
+      "pae_interaction": 7.15,
+      "plddt_binder": 87.031,
+      "ptm": 0.838
+    },
+    "cape_24": {
+      "pae_interaction": 7.09,
+      "plddt_binder": 88.188,
+      "ptm": 0.838
+    }
+  },
+  "5vli": {
+    "native": {
+      "pae_interaction": 27.37,
+      "plddt_binder": 88.766,
+      "ptm": 0.794
+    },
+    "base_1": {
+      "pae_interaction": 22.63,
+      "plddt_binder": 79.84,
+      "ptm": 0.796
+    },
+    "base_2": {
+      "pae_interaction": 27.52,
+      "plddt_binder": 88.844,
+      "ptm": 0.795
+    },
+    "base_3": {
+      "pae_interaction": 27.62,
+      "plddt_binder": 88.745,
+      "ptm": 0.796
+    },
+    "base_4": {
+      "pae_interaction": 27.66,
+      "plddt_binder": 88.518,
+      "ptm": 0.796
+    },
+    "base_5": {
+      "pae_interaction": 14.25,
+      "plddt_binder": 79.469,
+      "ptm": 0.817
+    },
+    "base_6": {
+      "pae_interaction": 27.87,
+      "plddt_binder": 92.17,
+      "ptm": 0.795
+    },
+    "base_7": {
+      "pae_interaction": 14.8,
+      "plddt_binder": 78.456,
+      "ptm": 0.816
+    },
+    "base_8": {
+      "pae_interaction": 27.34,
+      "plddt_binder": 89.283,
+      "ptm": 0.793
+    },
+    "base_9": {
+      "pae_interaction": 27.53,
+      "plddt_binder": 90.201,
+      "ptm": 0.794
+    },
+    "base_10": {
+      "pae_interaction": 27.54,
+      "plddt_binder": 87.964,
+      "ptm": 0.796
+    },
+    "base_11": {
+      "pae_interaction": 27.58,
+      "plddt_binder": 86.951,
+      "ptm": 0.796
+    },
+    "base_12": {
+      "pae_interaction": 27.66,
+      "plddt_binder": 88.246,
+      "ptm": 0.795
+    },
+    "base_13": {
+      "pae_interaction": 27.57,
+      "plddt_binder": 90.865,
+      "ptm": 0.794
+    },
+    "base_14": {
+      "pae_interaction": 27.51,
+      "plddt_binder": 90.269,
+      "ptm": 0.795
+    },
+    "base_15": {
+      "pae_interaction": 27.39,
+      "plddt_binder": 89.988,
+      "ptm": 0.793
+    },
+    "base_16": {
+      "pae_interaction": 16.3,
+      "plddt_binder": 79.705,
+      "ptm": 0.811
+    },
+    "base_17": {
+      "pae_interaction": 27.69,
+      "plddt_binder": 89.357,
+      "ptm": 0.794
+    },
+    "base_18": {
+      "pae_interaction": 27.53,
+      "plddt_binder": 89.798,
+      "ptm": 0.795
+    },
+    "base_19": {
+      "pae_interaction": 27.59,
+      "plddt_binder": 91.977,
+      "ptm": 0.795
+    },
+    "base_20": {
+      "pae_interaction": 27.6,
+      "plddt_binder": 89.772,
+      "ptm": 0.795
+    },
+    "base_21": {
+      "pae_interaction": 27.61,
+      "plddt_binder": 88.626,
+      "ptm": 0.794
+    },
+    "base_22": {
+      "pae_interaction": 14.19,
+      "plddt_binder": 76.943,
+      "ptm": 0.818
+    },
+    "base_23": {
+      "pae_interaction": 27.58,
+      "plddt_binder": 88.9,
+      "ptm": 0.796
+    },
+    "base_24": {
+      "pae_interaction": 27.65,
+      "plddt_binder": 88.807,
+      "ptm": 0.795
+    },
+    "cape_1": {
+      "pae_interaction": 27.78,
+      "plddt_binder": 82.942,
+      "ptm": 0.796
+    },
+    "cape_2": {
+      "pae_interaction": 10.45,
+      "plddt_binder": 85.067,
+      "ptm": 0.834
+    },
+    "cape_3": {
+      "pae_interaction": 20.49,
+      "plddt_binder": 69.578,
+      "ptm": 0.799
+    },
+    "cape_4": {
+      "pae_interaction": 13.23,
+      "plddt_binder": 80.631,
+      "ptm": 0.821
+    },
+    "cape_5": {
+      "pae_interaction": 27.43,
+      "plddt_binder": 63.354,
+      "ptm": 0.794
+    },
+    "cape_6": {
+      "pae_interaction": 27.33,
+      "plddt_binder": 85.711,
+      "ptm": 0.794
+    },
+    "cape_7": {
+      "pae_interaction": 27.66,
+      "plddt_binder": 88.393,
+      "ptm": 0.795
+    },
+    "cape_8": {
+      "pae_interaction": 27.67,
+      "plddt_binder": 90.938,
+      "ptm": 0.795
+    },
+    "cape_9": {
+      "pae_interaction": 27.26,
+      "plddt_binder": 63.499,
+      "ptm": 0.793
+    },
+    "cape_10": {
+      "pae_interaction": 12.6,
+      "plddt_binder": 83.616,
+      "ptm": 0.824
+    },
+    "cape_11": {
+      "pae_interaction": 27.67,
+      "plddt_binder": 64.848,
+      "ptm": 0.795
+    },
+    "cape_12": {
+      "pae_interaction": 13.86,
+      "plddt_binder": 77.583,
+      "ptm": 0.821
+    },
+    "cape_13": {
+      "pae_interaction": 27.37,
+      "plddt_binder": 79.366,
+      "ptm": 0.794
+    },
+    "cape_14": {
+      "pae_interaction": 12.45,
+      "plddt_binder": 80.676,
+      "ptm": 0.823
+    },
+    "cape_15": {
+      "pae_interaction": 11.04,
+      "plddt_binder": 81.169,
+      "ptm": 0.831
+    },
+    "cape_16": {
+      "pae_interaction": 27.66,
+      "plddt_binder": 88.946,
+      "ptm": 0.794
+    },
+    "cape_17": {
+      "pae_interaction": 27.29,
+      "plddt_binder": 88.194,
+      "ptm": 0.793
+    },
+    "cape_18": {
+      "pae_interaction": 27.83,
+      "plddt_binder": 89.33,
+      "ptm": 0.794
+    },
+    "cape_19": {
+      "pae_interaction": 12.97,
+      "plddt_binder": 79.328,
+      "ptm": 0.824
+    },
+    "cape_20": {
+      "pae_interaction": 13.43,
+      "plddt_binder": 79.508,
+      "ptm": 0.822
+    },
+    "cape_21": {
+      "pae_interaction": 11.98,
+      "plddt_binder": 82.097,
+      "ptm": 0.83
+    },
+    "cape_22": {
+      "pae_interaction": 21.05,
+      "plddt_binder": 76.222,
+      "ptm": 0.798
+    },
+    "cape_23": {
+      "pae_interaction": 10.66,
+      "plddt_binder": 85.746,
+      "ptm": 0.832
+    },
+    "cape_24": {
+      "pae_interaction": 27.59,
+      "plddt_binder": 87.587,
+      "ptm": 0.795
+    }
+  },
+  "4oyd": {
+    "native": {
+      "pae_interaction": 26.52,
+      "plddt_binder": 67.179,
+      "ptm": 0.589
+    },
+    "base_1": {
+      "pae_interaction": 26.78,
+      "plddt_binder": 91.733,
+      "ptm": 0.58
+    },
+    "base_2": {
+      "pae_interaction": 26.27,
+      "plddt_binder": 91.057,
+      "ptm": 0.587
+    },
+    "base_3": {
+      "pae_interaction": 26.37,
+      "plddt_binder": 93.024,
+      "ptm": 0.584
+    },
+    "base_4": {
+      "pae_interaction": 4.2,
+      "plddt_binder": 94.279,
+      "ptm": 0.917
+    },
+    "base_5": {
+      "pae_interaction": 26.53,
+      "plddt_binder": 93.86,
+      "ptm": 0.58
+    },
+    "base_6": {
+      "pae_interaction": 26.44,
+      "plddt_binder": 91.807,
+      "ptm": 0.584
+    },
+    "base_7": {
+      "pae_interaction": 3.84,
+      "plddt_binder": 95.593,
+      "ptm": 0.919
+    },
+    "base_8": {
+      "pae_interaction": 26.32,
+      "plddt_binder": 94.466,
+      "ptm": 0.582
+    },
+    "base_9": {
+      "pae_interaction": 26.08,
+      "plddt_binder": 91.704,
+      "ptm": 0.588
+    },
+    "base_10": {
+      "pae_interaction": 4.5,
+      "plddt_binder": 92.929,
+      "ptm": 0.909
+    },
+    "base_11": {
+      "pae_interaction": 23.24,
+      "plddt_binder": 92.787,
+      "ptm": 0.625
+    },
+    "base_12": {
+      "pae_interaction": 25.86,
+      "plddt_binder": 91.58,
+      "ptm": 0.584
+    },
+    "base_13": {
+      "pae_interaction": 26.34,
+      "plddt_binder": 94.631,
+      "ptm": 0.583
+    },
+    "base_14": {
+      "pae_interaction": 26.17,
+      "plddt_binder": 91.705,
+      "ptm": 0.583
+    },
+    "base_15": {
+      "pae_interaction": 4.21,
+      "plddt_binder": 94.771,
+      "ptm": 0.914
+    },
+    "base_16": {
+      "pae_interaction": 4.08,
+      "plddt_binder": 94.779,
+      "ptm": 0.917
+    },
+    "base_17": {
+      "pae_interaction": 26.4,
+      "plddt_binder": 91.342,
+      "ptm": 0.585
+    },
+    "base_18": {
+      "pae_interaction": 4.09,
+      "plddt_binder": 94.956,
+      "ptm": 0.917
+    },
+    "base_19": {
+      "pae_interaction": 26.51,
+      "plddt_binder": 92.946,
+      "ptm": 0.58
+    },
+    "base_20": {
+      "pae_interaction": 4.76,
+      "plddt_binder": 92.48,
+      "ptm": 0.907
+    },
+    "base_21": {
+      "pae_interaction": 26.21,
+      "plddt_binder": 93.655,
+      "ptm": 0.582
+    },
+    "base_22": {
+      "pae_interaction": 26.04,
+      "plddt_binder": 93.824,
+      "ptm": 0.582
+    },
+    "base_23": {
+      "pae_interaction": 4.22,
+      "plddt_binder": 94.868,
+      "ptm": 0.915
+    },
+    "base_24": {
+      "pae_interaction": 26.21,
+      "plddt_binder": 93.419,
+      "ptm": 0.582
+    },
+    "cape_1": {
+      "pae_interaction": 4.22,
+      "plddt_binder": 94.481,
+      "ptm": 0.916
+    },
+    "cape_2": {
+      "pae_interaction": 26.26,
+      "plddt_binder": 93.819,
+      "ptm": 0.584
+    },
+    "cape_3": {
+      "pae_interaction": 26.44,
+      "plddt_binder": 93.078,
+      "ptm": 0.583
+    },
+    "cape_4": {
+      "pae_interaction": 4.27,
+      "plddt_binder": 94.086,
+      "ptm": 0.915
+    },
+    "cape_5": {
+      "pae_interaction": 4.36,
+      "plddt_binder": 93.561,
+      "ptm": 0.915
+    },
+    "cape_6": {
+      "pae_interaction": 26.32,
+      "plddt_binder": 94.14,
+      "ptm": 0.584
+    },
+    "cape_7": {
+      "pae_interaction": 4.08,
+      "plddt_binder": 95.084,
+      "ptm": 0.918
+    },
+    "cape_8": {
+      "pae_interaction": 26.65,
+      "plddt_binder": 92.983,
+      "ptm": 0.582
+    },
+    "cape_9": {
+      "pae_interaction": 26.56,
+      "plddt_binder": 93.044,
+      "ptm": 0.581
+    },
+    "cape_10": {
+      "pae_interaction": 4.48,
+      "plddt_binder": 92.9,
+      "ptm": 0.913
+    },
+    "cape_11": {
+      "pae_interaction": 4.0,
+      "plddt_binder": 95.712,
+      "ptm": 0.921
+    },
+    "cape_12": {
+      "pae_interaction": 4.26,
+      "plddt_binder": 94.117,
+      "ptm": 0.915
+    },
+    "cape_13": {
+      "pae_interaction": 4.21,
+      "plddt_binder": 94.449,
+      "ptm": 0.915
+    },
+    "cape_14": {
+      "pae_interaction": 4.22,
+      "plddt_binder": 94.264,
+      "ptm": 0.916
+    },
+    "cape_15": {
+      "pae_interaction": 4.21,
+      "plddt_binder": 94.78,
+      "ptm": 0.915
+    },
+    "cape_16": {
+      "pae_interaction": 4.44,
+      "plddt_binder": 93.26,
+      "ptm": 0.913
+    },
+    "cape_17": {
+      "pae_interaction": 4.46,
+      "plddt_binder": 93.002,
+      "ptm": 0.914
+    },
+    "cape_18": {
+      "pae_interaction": 4.09,
+      "plddt_binder": 95.058,
+      "ptm": 0.92
+    },
+    "cape_19": {
+      "pae_interaction": 4.11,
+      "plddt_binder": 95.029,
+      "ptm": 0.922
+    },
+    "cape_20": {
+      "pae_interaction": 3.92,
+      "plddt_binder": 95.167,
+      "ptm": 0.92
+    },
+    "cape_21": {
+      "pae_interaction": 4.14,
+      "plddt_binder": 94.959,
+      "ptm": 0.916
+    },
+    "cape_22": {
+      "pae_interaction": 26.1,
+      "plddt_binder": 94.394,
+      "ptm": 0.582
+    },
+    "cape_23": {
+      "pae_interaction": 26.35,
+      "plddt_binder": 94.851,
+      "ptm": 0.581
+    },
+    "cape_24": {
+      "pae_interaction": 4.2,
+      "plddt_binder": 95.589,
+      "ptm": 0.919
+    }
+  },
+  "7jzl": {
+    "native": {
+      "pae_interaction": 16.52,
+      "plddt_binder": 77.963,
+      "ptm": 0.809
+    },
+    "base_1": {
+      "pae_interaction": 27.36,
+      "plddt_binder": 93.949,
+      "ptm": 0.735
+    },
+    "base_2": {
+      "pae_interaction": 4.51,
+      "plddt_binder": 93.631,
+      "ptm": 0.902
+    },
+    "base_3": {
+      "pae_interaction": 27.16,
+      "plddt_binder": 95.551,
+      "ptm": 0.736
+    },
+    "base_4": {
+      "pae_interaction": 25.96,
+      "plddt_binder": 92.054,
+      "ptm": 0.74
+    },
+    "base_5": {
+      "pae_interaction": 27.73,
+      "plddt_binder": 95.229,
+      "ptm": 0.734
+    },
+    "base_6": {
+      "pae_interaction": 27.47,
+      "plddt_binder": 94.703,
+      "ptm": 0.735
+    },
+    "base_7": {
+      "pae_interaction": 27.62,
+      "plddt_binder": 94.295,
+      "ptm": 0.733
+    },
+    "base_8": {
+      "pae_interaction": 4.8,
+      "plddt_binder": 92.811,
+      "ptm": 0.899
+    },
+    "base_9": {
+      "pae_interaction": 4.62,
+      "plddt_binder": 94.005,
+      "ptm": 0.9
+    },
+    "base_10": {
+      "pae_interaction": 25.82,
+      "plddt_binder": 94.393,
+      "ptm": 0.738
+    },
+    "base_11": {
+      "pae_interaction": 27.17,
+      "plddt_binder": 94.394,
+      "ptm": 0.736
+    },
+    "base_12": {
+      "pae_interaction": 4.28,
+      "plddt_binder": 94.43,
+      "ptm": 0.907
+    },
+    "base_13": {
+      "pae_interaction": 8.69,
+      "plddt_binder": 87.674,
+      "ptm": 0.869
+    },
+    "base_14": {
+      "pae_interaction": 27.6,
+      "plddt_binder": 94.217,
+      "ptm": 0.733
+    },
+    "base_15": {
+      "pae_interaction": 26.99,
+      "plddt_binder": 94.448,
+      "ptm": 0.736
+    },
+    "base_16": {
+      "pae_interaction": 27.38,
+      "plddt_binder": 92.905,
+      "ptm": 0.733
+    },
+    "base_17": {
+      "pae_interaction": 26.86,
+      "plddt_binder": 94.08,
+      "ptm": 0.736
+    },
+    "base_18": {
+      "pae_interaction": 4.53,
+      "plddt_binder": 93.662,
+      "ptm": 0.904
+    },
+    "base_19": {
+      "pae_interaction": 27.09,
+      "plddt_binder": 94.434,
+      "ptm": 0.735
+    },
+    "base_20": {
+      "pae_interaction": 27.51,
+      "plddt_binder": 94.345,
+      "ptm": 0.734
+    },
+    "base_21": {
+      "pae_interaction": 27.27,
+      "plddt_binder": 93.6,
+      "ptm": 0.734
+    },
+    "base_22": {
+      "pae_interaction": 27.55,
+      "plddt_binder": 93.59,
+      "ptm": 0.735
+    },
+    "base_23": {
+      "pae_interaction": 8.13,
+      "plddt_binder": 90.735,
+      "ptm": 0.868
+    },
+    "base_24": {
+      "pae_interaction": 27.53,
+      "plddt_binder": 94.51,
+      "ptm": 0.734
+    },
+    "cape_1": {
+      "pae_interaction": 4.36,
+      "plddt_binder": 94.551,
+      "ptm": 0.905
+    },
+    "cape_2": {
+      "pae_interaction": 26.64,
+      "plddt_binder": 92.462,
+      "ptm": 0.737
+    },
+    "cape_3": {
+      "pae_interaction": 27.46,
+      "plddt_binder": 94.798,
+      "ptm": 0.734
+    },
+    "cape_4": {
+      "pae_interaction": 4.73,
+      "plddt_binder": 94.395,
+      "ptm": 0.9
+    },
+    "cape_5": {
+      "pae_interaction": 26.95,
+      "plddt_binder": 94.871,
+      "ptm": 0.735
+    },
+    "cape_6": {
+      "pae_interaction": 27.75,
+      "plddt_binder": 95.125,
+      "ptm": 0.734
+    },
+    "cape_7": {
+      "pae_interaction": 27.24,
+      "plddt_binder": 94.814,
+      "ptm": 0.734
+    },
+    "cape_8": {
+      "pae_interaction": 27.76,
+      "plddt_binder": 94.149,
+      "ptm": 0.734
+    },
+    "cape_9": {
+      "pae_interaction": 26.57,
+      "plddt_binder": 94.036,
+      "ptm": 0.736
+    },
+    "cape_10": {
+      "pae_interaction": 4.22,
+      "plddt_binder": 95.123,
+      "ptm": 0.906
+    },
+    "cape_11": {
+      "pae_interaction": 4.6,
+      "plddt_binder": 94.131,
+      "ptm": 0.9
+    },
+    "cape_12": {
+      "pae_interaction": 26.35,
+      "plddt_binder": 94.856,
+      "ptm": 0.737
+    },
+    "cape_13": {
+      "pae_interaction": 4.28,
+      "plddt_binder": 95.06,
+      "ptm": 0.905
+    },
+    "cape_14": {
+      "pae_interaction": 26.58,
+      "plddt_binder": 94.396,
+      "ptm": 0.737
+    },
+    "cape_15": {
+      "pae_interaction": 4.28,
+      "plddt_binder": 95.064,
+      "ptm": 0.906
+    },
+    "cape_16": {
+      "pae_interaction": 6.16,
+      "plddt_binder": 91.427,
+      "ptm": 0.886
+    },
+    "cape_17": {
+      "pae_interaction": 27.88,
+      "plddt_binder": 94.356,
+      "ptm": 0.732
+    },
+    "cape_18": {
+      "pae_interaction": 27.18,
+      "plddt_binder": 94.145,
+      "ptm": 0.736
+    },
+    "cape_19": {
+      "pae_interaction": 26.56,
+      "plddt_binder": 94.422,
+      "ptm": 0.736
+    },
+    "cape_20": {
+      "pae_interaction": 27.4,
+      "plddt_binder": 93.267,
+      "ptm": 0.734
+    },
+    "cape_21": {
+      "pae_interaction": 19.38,
+      "plddt_binder": 90.711,
+      "ptm": 0.775
+    },
+    "cape_22": {
+      "pae_interaction": 27.37,
+      "plddt_binder": 95.142,
+      "ptm": 0.735
+    },
+    "cape_23": {
+      "pae_interaction": 4.9,
+      "plddt_binder": 93.414,
+      "ptm": 0.899
+    },
+    "cape_24": {
+      "pae_interaction": 27.01,
+      "plddt_binder": 93.308,
+      "ptm": 0.735
+    }
+  },
+  "9cc5": {
+    "native": {
+      "pae_interaction": 9.83,
+      "plddt_binder": 89.846,
+      "ptm": 0.808
+    },
+    "base_1": {
+      "pae_interaction": 6.93,
+      "plddt_binder": 93.209,
+      "ptm": 0.846
+    },
+    "base_2": {
+      "pae_interaction": 7.25,
+      "plddt_binder": 89.321,
+      "ptm": 0.822
+    },
+    "base_3": {
+      "pae_interaction": 7.82,
+      "plddt_binder": 93.37,
+      "ptm": 0.848
+    },
+    "base_4": {
+      "pae_interaction": 6.12,
+      "plddt_binder": 92.659,
+      "ptm": 0.848
+    },
+    "base_5": {
+      "pae_interaction": 7.02,
+      "plddt_binder": 92.591,
+      "ptm": 0.839
+    },
+    "base_6": {
+      "pae_interaction": 6.03,
+      "plddt_binder": 92.94,
+      "ptm": 0.854
+    },
+    "base_7": {
+      "pae_interaction": 6.74,
+      "plddt_binder": 94.166,
+      "ptm": 0.861
+    },
+    "base_8": {
+      "pae_interaction": 4.09,
+      "plddt_binder": 94.954,
+      "ptm": 0.879
+    },
+    "base_9": {
+      "pae_interaction": 6.98,
+      "plddt_binder": 93.526,
+      "ptm": 0.85
+    },
+    "base_10": {
+      "pae_interaction": 8.16,
+      "plddt_binder": 90.394,
+      "ptm": 0.814
+    },
+    "base_11": {
+      "pae_interaction": 5.89,
+      "plddt_binder": 93.831,
+      "ptm": 0.864
+    },
+    "base_12": {
+      "pae_interaction": 7.4,
+      "plddt_binder": 91.693,
+      "ptm": 0.828
+    },
+    "base_13": {
+      "pae_interaction": 6.86,
+      "plddt_binder": 92.941,
+      "ptm": 0.848
+    },
+    "base_14": {
+      "pae_interaction": 6.24,
+      "plddt_binder": 93.136,
+      "ptm": 0.851
+    },
+    "base_15": {
+      "pae_interaction": 7.8,
+      "plddt_binder": 91.822,
+      "ptm": 0.825
+    },
+    "base_16": {
+      "pae_interaction": 7.42,
+      "plddt_binder": 93.935,
+      "ptm": 0.848
+    },
+    "base_17": {
+      "pae_interaction": 6.23,
+      "plddt_binder": 89.364,
+      "ptm": 0.813
+    },
+    "base_18": {
+      "pae_interaction": 6.91,
+      "plddt_binder": 92.293,
+      "ptm": 0.841
+    },
+    "base_19": {
+      "pae_interaction": 6.47,
+      "plddt_binder": 94.001,
+      "ptm": 0.858
+    },
+    "base_20": {
+      "pae_interaction": 8.64,
+      "plddt_binder": 91.264,
+      "ptm": 0.828
+    },
+    "base_21": {
+      "pae_interaction": 8.97,
+      "plddt_binder": 93.0,
+      "ptm": 0.839
+    },
+    "base_22": {
+      "pae_interaction": 6.51,
+      "plddt_binder": 92.559,
+      "ptm": 0.853
+    },
+    "base_23": {
+      "pae_interaction": 8.98,
+      "plddt_binder": 91.642,
+      "ptm": 0.823
+    },
+    "base_24": {
+      "pae_interaction": 8.27,
+      "plddt_binder": 91.986,
+      "ptm": 0.826
+    },
+    "cape_1": {
+      "pae_interaction": 6.54,
+      "plddt_binder": 93.808,
+      "ptm": 0.859
+    },
+    "cape_2": {
+      "pae_interaction": 7.74,
+      "plddt_binder": 93.402,
+      "ptm": 0.849
+    },
+    "cape_3": {
+      "pae_interaction": 5.35,
+      "plddt_binder": 95.409,
+      "ptm": 0.874
+    },
+    "cape_4": {
+      "pae_interaction": 5.7,
+      "plddt_binder": 93.03,
+      "ptm": 0.854
+    },
+    "cape_5": {
+      "pae_interaction": 8.72,
+      "plddt_binder": 90.207,
+      "ptm": 0.801
+    },
+    "cape_6": {
+      "pae_interaction": 5.29,
+      "plddt_binder": 92.937,
+      "ptm": 0.858
+    },
+    "cape_7": {
+      "pae_interaction": 7.2,
+      "plddt_binder": 94.017,
+      "ptm": 0.863
+    },
+    "cape_8": {
+      "pae_interaction": 8.19,
+      "plddt_binder": 92.417,
+      "ptm": 0.828
+    },
+    "cape_9": {
+      "pae_interaction": 6.66,
+      "plddt_binder": 93.32,
+      "ptm": 0.85
+    },
+    "cape_10": {
+      "pae_interaction": 8.8,
+      "plddt_binder": 90.639,
+      "ptm": 0.817
+    },
+    "cape_11": {
+      "pae_interaction": 7.29,
+      "plddt_binder": 93.074,
+      "ptm": 0.836
+    },
+    "cape_12": {
+      "pae_interaction": 10.86,
+      "plddt_binder": 87.559,
+      "ptm": 0.78
+    },
+    "cape_13": {
+      "pae_interaction": 8.13,
+      "plddt_binder": 92.046,
+      "ptm": 0.834
+    },
+    "cape_14": {
+      "pae_interaction": 7.31,
+      "plddt_binder": 92.328,
+      "ptm": 0.838
+    },
+    "cape_15": {
+      "pae_interaction": 7.29,
+      "plddt_binder": 92.067,
+      "ptm": 0.831
+    },
+    "cape_16": {
+      "pae_interaction": 7.5,
+      "plddt_binder": 92.943,
+      "ptm": 0.844
+    },
+    "cape_17": {
+      "pae_interaction": 5.04,
+      "plddt_binder": 95.088,
+      "ptm": 0.865
+    },
+    "cape_18": {
+      "pae_interaction": 8.89,
+      "plddt_binder": 93.065,
+      "ptm": 0.836
+    },
+    "cape_19": {
+      "pae_interaction": 7.65,
+      "plddt_binder": 92.137,
+      "ptm": 0.845
+    },
+    "cape_20": {
+      "pae_interaction": 7.49,
+      "plddt_binder": 92.767,
+      "ptm": 0.832
+    },
+    "cape_21": {
+      "pae_interaction": 7.69,
+      "plddt_binder": 92.135,
+      "ptm": 0.841
+    },
+    "cape_22": {
+      "pae_interaction": 6.94,
+      "plddt_binder": 92.29,
+      "ptm": 0.83
+    },
+    "cape_23": {
+      "pae_interaction": 8.39,
+      "plddt_binder": 90.972,
+      "ptm": 0.82
+    },
+    "cape_24": {
+      "pae_interaction": 5.3,
+      "plddt_binder": 92.588,
+      "ptm": 0.85
+    }
+  },
+  "8t5e": {
+    "native": {
+      "pae_interaction": 4.0,
+      "plddt_binder": 95.093,
+      "ptm": 0.884
+    },
+    "base_1": {
+      "pae_interaction": 5.35,
+      "plddt_binder": 91.301,
+      "ptm": 0.835
+    },
+    "base_2": {
+      "pae_interaction": 5.35,
+      "plddt_binder": 92.25,
+      "ptm": 0.842
+    },
+    "base_3": {
+      "pae_interaction": 5.57,
+      "plddt_binder": 91.96,
+      "ptm": 0.84
+    },
+    "base_4": {
+      "pae_interaction": 4.62,
+      "plddt_binder": 94.218,
+      "ptm": 0.875
+    },
+    "base_5": {
+      "pae_interaction": 4.66,
+      "plddt_binder": 93.11,
+      "ptm": 0.852
+    },
+    "base_6": {
+      "pae_interaction": 4.17,
+      "plddt_binder": 94.068,
+      "ptm": 0.865
+    },
+    "base_7": {
+      "pae_interaction": 4.94,
+      "plddt_binder": 92.429,
+      "ptm": 0.841
+    },
+    "base_8": {
+      "pae_interaction": 5.19,
+      "plddt_binder": 92.497,
+      "ptm": 0.85
+    },
+    "base_9": {
+      "pae_interaction": 4.81,
+      "plddt_binder": 92.489,
+      "ptm": 0.853
+    },
+    "base_10": {
+      "pae_interaction": 5.5,
+      "plddt_binder": 93.008,
+      "ptm": 0.856
+    },
+    "base_11": {
+      "pae_interaction": 5.35,
+      "plddt_binder": 90.159,
+      "ptm": 0.81
+    },
+    "base_12": {
+      "pae_interaction": 5.26,
+      "plddt_binder": 90.875,
+      "ptm": 0.821
+    },
+    "base_13": {
+      "pae_interaction": 4.4,
+      "plddt_binder": 94.293,
+      "ptm": 0.878
+    },
+    "base_14": {
+      "pae_interaction": 6.03,
+      "plddt_binder": 92.558,
+      "ptm": 0.853
+    },
+    "base_15": {
+      "pae_interaction": 4.64,
+      "plddt_binder": 94.011,
+      "ptm": 0.868
+    },
+    "base_16": {
+      "pae_interaction": 5.49,
+      "plddt_binder": 92.765,
+      "ptm": 0.85
+    },
+    "base_17": {
+      "pae_interaction": 10.83,
+      "plddt_binder": 84.956,
+      "ptm": 0.734
+    },
+    "base_18": {
+      "pae_interaction": 5.68,
+      "plddt_binder": 92.334,
+      "ptm": 0.849
+    },
+    "base_19": {
+      "pae_interaction": 5.29,
+      "plddt_binder": 92.898,
+      "ptm": 0.853
+    },
+    "base_20": {
+      "pae_interaction": 4.8,
+      "plddt_binder": 93.857,
+      "ptm": 0.865
+    },
+    "base_21": {
+      "pae_interaction": 5.44,
+      "plddt_binder": 92.351,
+      "ptm": 0.841
+    },
+    "base_22": {
+      "pae_interaction": 4.46,
+      "plddt_binder": 93.432,
+      "ptm": 0.857
+    },
+    "base_23": {
+      "pae_interaction": 4.6,
+      "plddt_binder": 93.848,
+      "ptm": 0.868
+    },
+    "base_24": {
+      "pae_interaction": 4.79,
+      "plddt_binder": 92.638,
+      "ptm": 0.854
+    },
+    "cape_1": {
+      "pae_interaction": 5.2,
+      "plddt_binder": 93.107,
+      "ptm": 0.855
+    },
+    "cape_2": {
+      "pae_interaction": 4.63,
+      "plddt_binder": 92.908,
+      "ptm": 0.857
+    },
+    "cape_3": {
+      "pae_interaction": 12.39,
+      "plddt_binder": 85.099,
+      "ptm": 0.73
+    },
+    "cape_4": {
+      "pae_interaction": 4.75,
+      "plddt_binder": 92.998,
+      "ptm": 0.847
+    },
+    "cape_5": {
+      "pae_interaction": 4.81,
+      "plddt_binder": 92.303,
+      "ptm": 0.852
+    },
+    "cape_6": {
+      "pae_interaction": 4.54,
+      "plddt_binder": 93.141,
+      "ptm": 0.861
+    },
+    "cape_7": {
+      "pae_interaction": 4.69,
+      "plddt_binder": 93.637,
+      "ptm": 0.858
+    },
+    "cape_8": {
+      "pae_interaction": 5.4,
+      "plddt_binder": 91.647,
+      "ptm": 0.835
+    },
+    "cape_9": {
+      "pae_interaction": 4.64,
+      "plddt_binder": 93.264,
+      "ptm": 0.856
+    },
+    "cape_10": {
+      "pae_interaction": 3.85,
+      "plddt_binder": 94.168,
+      "ptm": 0.882
+    },
+    "cape_11": {
+      "pae_interaction": 4.66,
+      "plddt_binder": 93.436,
+      "ptm": 0.862
+    },
+    "cape_12": {
+      "pae_interaction": 4.59,
+      "plddt_binder": 93.209,
+      "ptm": 0.857
+    },
+    "cape_13": {
+      "pae_interaction": 4.71,
+      "plddt_binder": 93.283,
+      "ptm": 0.868
+    },
+    "cape_14": {
+      "pae_interaction": 5.59,
+      "plddt_binder": 92.315,
+      "ptm": 0.84
+    },
+    "cape_15": {
+      "pae_interaction": 4.6,
+      "plddt_binder": 92.782,
+      "ptm": 0.861
+    },
+    "cape_16": {
+      "pae_interaction": 4.78,
+      "plddt_binder": 93.739,
+      "ptm": 0.87
+    },
+    "cape_17": {
+      "pae_interaction": 4.79,
+      "plddt_binder": 92.063,
+      "ptm": 0.842
+    },
+    "cape_18": {
+      "pae_interaction": 4.75,
+      "plddt_binder": 93.715,
+      "ptm": 0.87
+    },
+    "cape_19": {
+      "pae_interaction": 4.41,
+      "plddt_binder": 93.878,
+      "ptm": 0.869
+    },
+    "cape_20": {
+      "pae_interaction": 4.88,
+      "plddt_binder": 92.104,
+      "ptm": 0.847
+    },
+    "cape_21": {
+      "pae_interaction": 4.89,
+      "plddt_binder": 93.075,
+      "ptm": 0.857
+    },
+    "cape_22": {
+      "pae_interaction": 5.05,
+      "plddt_binder": 91.637,
+      "ptm": 0.848
+    },
+    "cape_23": {
+      "pae_interaction": 4.7,
+      "plddt_binder": 93.793,
+      "ptm": 0.861
+    },
+    "cape_24": {
+      "pae_interaction": 7.28,
+      "plddt_binder": 88.321,
+      "ptm": 0.795
+    }
+  },
+  "9nzh": {
+    "native": {
+      "pae_interaction": 5.94,
+      "plddt_binder": 92.165,
+      "ptm": 0.867
+    },
+    "base_1": {
+      "pae_interaction": 6.02,
+      "plddt_binder": 90.448,
+      "ptm": 0.852
+    },
+    "base_2": {
+      "pae_interaction": 5.79,
+      "plddt_binder": 90.981,
+      "ptm": 0.856
+    },
+    "base_3": {
+      "pae_interaction": 6.31,
+      "plddt_binder": 91.515,
+      "ptm": 0.856
+    },
+    "base_4": {
+      "pae_interaction": 6.29,
+      "plddt_binder": 88.948,
+      "ptm": 0.843
+    },
+    "base_5": {
+      "pae_interaction": 5.67,
+      "plddt_binder": 91.681,
+      "ptm": 0.861
+    },
+    "base_6": {
+      "pae_interaction": 6.12,
+      "plddt_binder": 89.518,
+      "ptm": 0.845
+    },
+    "base_7": {
+      "pae_interaction": 6.19,
+      "plddt_binder": 90.759,
+      "ptm": 0.851
+    },
+    "base_8": {
+      "pae_interaction": 6.28,
+      "plddt_binder": 90.784,
+      "ptm": 0.845
+    },
+    "base_9": {
+      "pae_interaction": 6.73,
+      "plddt_binder": 89.537,
+      "ptm": 0.833
+    },
+    "base_10": {
+      "pae_interaction": 5.94,
+      "plddt_binder": 91.944,
+      "ptm": 0.858
+    },
+    "base_11": {
+      "pae_interaction": 5.91,
+      "plddt_binder": 91.485,
+      "ptm": 0.858
+    },
+    "base_12": {
+      "pae_interaction": 5.93,
+      "plddt_binder": 91.565,
+      "ptm": 0.856
+    },
+    "base_13": {
+      "pae_interaction": 6.58,
+      "plddt_binder": 88.362,
+      "ptm": 0.837
+    },
+    "base_14": {
+      "pae_interaction": 6.22,
+      "plddt_binder": 89.843,
+      "ptm": 0.842
+    },
+    "base_15": {
+      "pae_interaction": 6.32,
+      "plddt_binder": 89.948,
+      "ptm": 0.848
+    },
+    "base_16": {
+      "pae_interaction": 6.14,
+      "plddt_binder": 90.183,
+      "ptm": 0.852
+    },
+    "base_17": {
+      "pae_interaction": 6.1,
+      "plddt_binder": 91.092,
+      "ptm": 0.85
+    },
+    "base_18": {
+      "pae_interaction": 6.77,
+      "plddt_binder": 88.572,
+      "ptm": 0.835
+    },
+    "base_19": {
+      "pae_interaction": 6.09,
+      "plddt_binder": 90.478,
+      "ptm": 0.854
+    },
+    "base_20": {
+      "pae_interaction": 6.14,
+      "plddt_binder": 89.897,
+      "ptm": 0.848
+    },
+    "base_21": {
+      "pae_interaction": 7.24,
+      "plddt_binder": 87.274,
+      "ptm": 0.82
+    },
+    "base_22": {
+      "pae_interaction": 6.17,
+      "plddt_binder": 89.656,
+      "ptm": 0.845
+    },
+    "base_23": {
+      "pae_interaction": 6.18,
+      "plddt_binder": 88.967,
+      "ptm": 0.841
+    },
+    "base_24": {
+      "pae_interaction": 6.13,
+      "plddt_binder": 89.718,
+      "ptm": 0.847
+    },
+    "cape_1": {
+      "pae_interaction": 5.79,
+      "plddt_binder": 91.505,
+      "ptm": 0.861
+    },
+    "cape_2": {
+      "pae_interaction": 5.92,
+      "plddt_binder": 90.439,
+      "ptm": 0.852
+    },
+    "cape_3": {
+      "pae_interaction": 5.96,
+      "plddt_binder": 90.909,
+      "ptm": 0.856
+    },
+    "cape_4": {
+      "pae_interaction": 5.81,
+      "plddt_binder": 90.799,
+      "ptm": 0.851
+    },
+    "cape_5": {
+      "pae_interaction": 6.35,
+      "plddt_binder": 90.08,
+      "ptm": 0.844
+    },
+    "cape_6": {
+      "pae_interaction": 6.05,
+      "plddt_binder": 90.304,
+      "ptm": 0.85
+    },
+    "cape_7": {
+      "pae_interaction": 6.07,
+      "plddt_binder": 91.483,
+      "ptm": 0.851
+    },
+    "cape_8": {
+      "pae_interaction": 6.0,
+      "plddt_binder": 89.503,
+      "ptm": 0.841
+    },
+    "cape_9": {
+      "pae_interaction": 6.17,
+      "plddt_binder": 89.787,
+      "ptm": 0.847
+    },
+    "cape_10": {
+      "pae_interaction": 6.29,
+      "plddt_binder": 90.762,
+      "ptm": 0.846
+    },
+    "cape_11": {
+      "pae_interaction": 6.45,
+      "plddt_binder": 90.427,
+      "ptm": 0.846
+    },
+    "cape_12": {
+      "pae_interaction": 5.92,
+      "plddt_binder": 90.562,
+      "ptm": 0.854
+    },
+    "cape_13": {
+      "pae_interaction": 5.95,
+      "plddt_binder": 90.847,
+      "ptm": 0.855
+    },
+    "cape_14": {
+      "pae_interaction": 6.01,
+      "plddt_binder": 91.627,
+      "ptm": 0.857
+    },
+    "cape_15": {
+      "pae_interaction": 6.18,
+      "plddt_binder": 90.637,
+      "ptm": 0.844
+    },
+    "cape_16": {
+      "pae_interaction": 7.41,
+      "plddt_binder": 87.078,
+      "ptm": 0.819
+    },
+    "cape_17": {
+      "pae_interaction": 6.54,
+      "plddt_binder": 89.519,
+      "ptm": 0.839
+    },
+    "cape_18": {
+      "pae_interaction": 6.17,
+      "plddt_binder": 90.108,
+      "ptm": 0.843
+    },
+    "cape_19": {
+      "pae_interaction": 5.91,
+      "plddt_binder": 91.227,
+      "ptm": 0.859
+    },
+    "cape_20": {
+      "pae_interaction": 6.16,
+      "plddt_binder": 90.8,
+      "ptm": 0.845
+    },
+    "cape_21": {
+      "pae_interaction": 11.25,
+      "plddt_binder": 62.913,
+      "ptm": 0.678
+    },
+    "cape_22": {
+      "pae_interaction": 6.26,
+      "plddt_binder": 89.776,
+      "ptm": 0.844
+    },
+    "cape_23": {
+      "pae_interaction": 5.59,
+      "plddt_binder": 91.345,
+      "ptm": 0.861
+    },
+    "cape_24": {
+      "pae_interaction": 6.37,
+      "plddt_binder": 89.68,
+      "ptm": 0.843
+    }
+  },
+  "9cce": {
+    "native": {
+      "pae_interaction": 18.27,
+      "plddt_binder": 88.256,
+      "ptm": 0.818
+    },
+    "base_1": {
+      "pae_interaction": 10.7,
+      "plddt_binder": 90.212,
+      "ptm": 0.846
+    },
+    "base_2": {
+      "pae_interaction": 17.02,
+      "plddt_binder": 86.892,
+      "ptm": 0.801
+    },
+    "base_3": {
+      "pae_interaction": 9.19,
+      "plddt_binder": 91.984,
+      "ptm": 0.875
+    },
+    "base_4": {
+      "pae_interaction": 19.49,
+      "plddt_binder": 88.43,
+      "ptm": 0.818
+    },
+    "base_5": {
+      "pae_interaction": 20.73,
+      "plddt_binder": 88.339,
+      "ptm": 0.769
+    },
+    "base_6": {
+      "pae_interaction": 14.45,
+      "plddt_binder": 76.05,
+      "ptm": 0.664
+    },
+    "base_7": {
+      "pae_interaction": 11.31,
+      "plddt_binder": 89.034,
+      "ptm": 0.783
+    },
+    "base_8": {
+      "pae_interaction": 10.89,
+      "plddt_binder": 91.292,
+      "ptm": 0.864
+    },
+    "base_9": {
+      "pae_interaction": 21.16,
+      "plddt_binder": 88.2,
+      "ptm": 0.811
+    },
+    "base_10": {
+      "pae_interaction": 15.65,
+      "plddt_binder": 87.63,
+      "ptm": 0.812
+    },
+    "base_11": {
+      "pae_interaction": 11.52,
+      "plddt_binder": 90.483,
+      "ptm": 0.858
+    },
+    "base_12": {
+      "pae_interaction": 15.01,
+      "plddt_binder": 88.428,
+      "ptm": 0.803
+    },
+    "base_13": {
+      "pae_interaction": 12.37,
+      "plddt_binder": 91.198,
+      "ptm": 0.856
+    },
+    "base_14": {
+      "pae_interaction": 26.59,
+      "plddt_binder": 79.652,
+      "ptm": 0.587
+    },
+    "base_15": {
+      "pae_interaction": 24.34,
+      "plddt_binder": 88.099,
+      "ptm": 0.769
+    },
+    "base_16": {
+      "pae_interaction": 11.45,
+      "plddt_binder": 89.204,
+      "ptm": 0.776
+    },
+    "base_17": {
+      "pae_interaction": 12.54,
+      "plddt_binder": 89.176,
+      "ptm": 0.788
+    },
+    "base_18": {
+      "pae_interaction": 14.45,
+      "plddt_binder": 87.242,
+      "ptm": 0.813
+    },
+    "base_19": {
+      "pae_interaction": 21.36,
+      "plddt_binder": 91.842,
+      "ptm": 0.846
+    },
+    "base_20": {
+      "pae_interaction": 11.03,
+      "plddt_binder": 88.544,
+      "ptm": 0.835
+    },
+    "base_21": {
+      "pae_interaction": 9.89,
+      "plddt_binder": 90.054,
+      "ptm": 0.842
+    },
+    "base_22": {
+      "pae_interaction": 9.31,
+      "plddt_binder": 92.31,
+      "ptm": 0.874
+    },
+    "base_23": {
+      "pae_interaction": 13.92,
+      "plddt_binder": 87.794,
+      "ptm": 0.779
+    },
+    "base_24": {
+      "pae_interaction": 15.63,
+      "plddt_binder": 91.47,
+      "ptm": 0.852
+    },
+    "cape_1": {
+      "pae_interaction": 26.69,
+      "plddt_binder": 77.496,
+      "ptm": 0.634
+    },
+    "cape_2": {
+      "pae_interaction": 25.92,
+      "plddt_binder": 82.361,
+      "ptm": 0.69
+    },
+    "cape_3": {
+      "pae_interaction": 16.45,
+      "plddt_binder": 82.177,
+      "ptm": 0.645
+    },
+    "cape_4": {
+      "pae_interaction": 19.53,
+      "plddt_binder": 81.145,
+      "ptm": 0.58
+    },
+    "cape_5": {
+      "pae_interaction": 23.75,
+      "plddt_binder": 88.96,
+      "ptm": 0.728
+    },
+    "cape_6": {
+      "pae_interaction": 20.51,
+      "plddt_binder": 86.389,
+      "ptm": 0.737
+    },
+    "cape_7": {
+      "pae_interaction": 12.67,
+      "plddt_binder": 90.189,
+      "ptm": 0.856
+    },
+    "cape_8": {
+      "pae_interaction": 25.79,
+      "plddt_binder": 82.391,
+      "ptm": 0.586
+    },
+    "cape_9": {
+      "pae_interaction": 23.48,
+      "plddt_binder": 88.278,
+      "ptm": 0.814
+    },
+    "cape_10": {
+      "pae_interaction": 13.39,
+      "plddt_binder": 90.208,
+      "ptm": 0.846
+    },
+    "cape_11": {
+      "pae_interaction": 12.69,
+      "plddt_binder": 91.935,
+      "ptm": 0.765
+    },
+    "cape_12": {
+      "pae_interaction": 22.38,
+      "plddt_binder": 86.476,
+      "ptm": 0.755
+    },
+    "cape_13": {
+      "pae_interaction": 15.73,
+      "plddt_binder": 88.125,
+      "ptm": 0.816
+    },
+    "cape_14": {
+      "pae_interaction": 21.78,
+      "plddt_binder": 86.964,
+      "ptm": 0.763
+    },
+    "cape_15": {
+      "pae_interaction": 19.2,
+      "plddt_binder": 87.399,
+      "ptm": 0.805
+    },
+    "cape_16": {
+      "pae_interaction": 19.52,
+      "plddt_binder": 86.694,
+      "ptm": 0.807
+    },
+    "cape_17": {
+      "pae_interaction": 10.99,
+      "plddt_binder": 89.935,
+      "ptm": 0.833
+    },
+    "cape_18": {
+      "pae_interaction": 20.2,
+      "plddt_binder": 88.316,
+      "ptm": 0.819
+    },
+    "cape_19": {
+      "pae_interaction": 14.97,
+      "plddt_binder": 89.681,
+      "ptm": 0.844
+    },
+    "cape_20": {
+      "pae_interaction": 19.51,
+      "plddt_binder": 86.467,
+      "ptm": 0.804
+    },
+    "cape_21": {
+      "pae_interaction": 11.71,
+      "plddt_binder": 89.825,
+      "ptm": 0.848
+    },
+    "cape_22": {
+      "pae_interaction": 18.26,
+      "plddt_binder": 86.275,
+      "ptm": 0.752
+    },
+    "cape_23": {
+      "pae_interaction": 11.66,
+      "plddt_binder": 88.47,
+      "ptm": 0.801
+    },
+    "cape_24": {
+      "pae_interaction": 13.41,
+      "plddt_binder": 87.099,
+      "ptm": 0.781
+    }
+  },
+  "9nds": {
+    "native": {
+      "pae_interaction": 28.17,
+      "plddt_binder": 38.623,
+      "ptm": 0.659
+    },
+    "base_1": {
+      "pae_interaction": 28.25,
+      "plddt_binder": 47.229,
+      "ptm": 0.655
+    },
+    "base_2": {
+      "pae_interaction": 28.21,
+      "plddt_binder": 50.333,
+      "ptm": 0.655
+    },
+    "base_3": {
+      "pae_interaction": 28.19,
+      "plddt_binder": 53.878,
+      "ptm": 0.655
+    },
+    "base_4": {
+      "pae_interaction": 28.58,
+      "plddt_binder": 51.282,
+      "ptm": 0.655
+    },
+    "base_5": {
+      "pae_interaction": 28.3,
+      "plddt_binder": 43.852,
+      "ptm": 0.655
+    },
+    "base_6": {
+      "pae_interaction": 28.37,
+      "plddt_binder": 46.016,
+      "ptm": 0.655
+    },
+    "base_7": {
+      "pae_interaction": 28.0,
+      "plddt_binder": 72.309,
+      "ptm": 0.655
+    },
+    "base_8": {
+      "pae_interaction": 28.16,
+      "plddt_binder": 41.712,
+      "ptm": 0.657
+    },
+    "base_9": {
+      "pae_interaction": 28.32,
+      "plddt_binder": 42.958,
+      "ptm": 0.658
+    },
+    "base_10": {
+      "pae_interaction": 28.17,
+      "plddt_binder": 41.895,
+      "ptm": 0.657
+    },
+    "base_11": {
+      "pae_interaction": 27.95,
+      "plddt_binder": 55.041,
+      "ptm": 0.657
+    },
+    "base_12": {
+      "pae_interaction": 28.34,
+      "plddt_binder": 52.55,
+      "ptm": 0.654
+    },
+    "base_13": {
+      "pae_interaction": 28.38,
+      "plddt_binder": 40.21,
+      "ptm": 0.657
+    },
+    "base_14": {
+      "pae_interaction": 28.33,
+      "plddt_binder": 48.469,
+      "ptm": 0.655
+    },
+    "base_15": {
+      "pae_interaction": 28.19,
+      "plddt_binder": 40.217,
+      "ptm": 0.656
+    },
+    "base_16": {
+      "pae_interaction": 28.43,
+      "plddt_binder": 48.725,
+      "ptm": 0.653
+    },
+    "base_17": {
+      "pae_interaction": 28.31,
+      "plddt_binder": 43.535,
+      "ptm": 0.656
+    },
+    "base_18": {
+      "pae_interaction": 28.38,
+      "plddt_binder": 40.68,
+      "ptm": 0.656
+    },
+    "base_19": {
+      "pae_interaction": 28.52,
+      "plddt_binder": 43.497,
+      "ptm": 0.654
+    },
+    "base_20": {
+      "pae_interaction": 28.14,
+      "plddt_binder": 50.668,
+      "ptm": 0.656
+    },
+    "base_21": {
+      "pae_interaction": 28.39,
+      "plddt_binder": 44.206,
+      "ptm": 0.655
+    },
+    "base_22": {
+      "pae_interaction": 28.32,
+      "plddt_binder": 38.065,
+      "ptm": 0.656
+    },
+    "base_23": {
+      "pae_interaction": 28.17,
+      "plddt_binder": 41.876,
+      "ptm": 0.658
+    },
+    "base_24": {
+      "pae_interaction": 28.27,
+      "plddt_binder": 47.022,
+      "ptm": 0.655
+    },
+    "cape_1": {
+      "pae_interaction": 28.27,
+      "plddt_binder": 41.226,
+      "ptm": 0.657
+    },
+    "cape_2": {
+      "pae_interaction": 28.28,
+      "plddt_binder": 41.207,
+      "ptm": 0.657
+    },
+    "cape_3": {
+      "pae_interaction": 28.04,
+      "plddt_binder": 56.133,
+      "ptm": 0.656
+    },
+    "cape_4": {
+      "pae_interaction": 28.08,
+      "plddt_binder": 65.63,
+      "ptm": 0.655
+    },
+    "cape_5": {
+      "pae_interaction": 28.31,
+      "plddt_binder": 51.31,
+      "ptm": 0.656
+    },
+    "cape_6": {
+      "pae_interaction": 28.19,
+      "plddt_binder": 41.449,
+      "ptm": 0.659
+    },
+    "cape_7": {
+      "pae_interaction": 28.35,
+      "plddt_binder": 62.406,
+      "ptm": 0.654
+    },
+    "cape_8": {
+      "pae_interaction": 28.28,
+      "plddt_binder": 41.388,
+      "ptm": 0.657
+    },
+    "cape_9": {
+      "pae_interaction": 28.26,
+      "plddt_binder": 43.613,
+      "ptm": 0.657
+    },
+    "cape_10": {
+      "pae_interaction": 28.37,
+      "plddt_binder": 48.442,
+      "ptm": 0.656
+    },
+    "cape_11": {
+      "pae_interaction": 28.22,
+      "plddt_binder": 41.778,
+      "ptm": 0.658
+    },
+    "cape_12": {
+      "pae_interaction": 28.25,
+      "plddt_binder": 48.744,
+      "ptm": 0.656
+    },
+    "cape_13": {
+      "pae_interaction": 28.31,
+      "plddt_binder": 39.523,
+      "ptm": 0.658
+    },
+    "cape_14": {
+      "pae_interaction": 28.21,
+      "plddt_binder": 41.77,
+      "ptm": 0.659
+    },
+    "cape_15": {
+      "pae_interaction": 28.29,
+      "plddt_binder": 43.037,
+      "ptm": 0.658
+    },
+    "cape_16": {
+      "pae_interaction": 28.21,
+      "plddt_binder": 41.686,
+      "ptm": 0.658
+    },
+    "cape_17": {
+      "pae_interaction": 28.36,
+      "plddt_binder": 48.497,
+      "ptm": 0.657
+    },
+    "cape_18": {
+      "pae_interaction": 28.26,
+      "plddt_binder": 43.353,
+      "ptm": 0.657
+    },
+    "cape_19": {
+      "pae_interaction": 28.05,
+      "plddt_binder": 55.946,
+      "ptm": 0.655
+    },
+    "cape_20": {
+      "pae_interaction": 28.11,
+      "plddt_binder": 49.62,
+      "ptm": 0.657
+    },
+    "cape_21": {
+      "pae_interaction": 28.26,
+      "plddt_binder": 43.393,
+      "ptm": 0.659
+    },
+    "cape_22": {
+      "pae_interaction": 28.12,
+      "plddt_binder": 64.168,
+      "ptm": 0.656
+    },
+    "cape_23": {
+      "pae_interaction": 28.44,
+      "plddt_binder": 39.453,
+      "ptm": 0.657
+    },
+    "cape_24": {
+      "pae_interaction": 28.24,
+      "plddt_binder": 43.708,
+      "ptm": 0.657
+    }
+  }
+}

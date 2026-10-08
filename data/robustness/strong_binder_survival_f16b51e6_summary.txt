@@ -1,0 +1,32 @@
+STRONG-BINDER SURVIVAL (P1-10 / DA-m4)
+==================================================================================
+source CSV : validate_netmhciipan_rank_sensitivity_deployed_sweep_guarded.csv
+guard      : per-protein mean base burden > 1.0, applied within each cutoff
+note       : netMHCIIpan's class II strong-binder threshold is %Rank_EL <= 1,
+             so the first row below is the strong-binder count, not a sensitivity row.
+
+  threshold          n     base     fine   mean %  pooled %  impr.   Wilcoxon  zero ft
+  --------------------------------------------------------------------------------
+  %Rank <= 1        98    24.39    13.21    43.97     45.83     93   4.74e-17        0
+  %Rank <= 2        98    46.72    26.39    41.39     43.52     93   2.36e-17        0
+  %Rank <= 5        99   109.93    65.78    37.72     40.16     94   1.11e-17        0
+  %Rank <= 10      100   209.35   132.88    35.14     36.53     97   7.12e-18        0
+
+READING (fixed before the numbers were computed):
+  strong-binder reduction >= the reported-threshold reduction -> the aggregate
+    metric tracks the immunodominant end too, and the premise that total
+    presented-window count is monotone in risk survives this probe.
+  strong-binder reduction materially SMALLER -> the headline is carried by
+    marginal binders and the immunodominance objection stands.
+
+  OBSERVED: strong (<=1%) 43.97% vs reported (<=2%) 41.39%, a difference of -2.58 pp.
+  -> The reduction reaches the strong binders at least as well as the marginal
+     ones. The immunodominance objection is not supported by this probe.
+
+  Proteins left with NO predicted strong binder: 0 of 98 fine-tuned, against 0 at base.
+
+  NOT ANSWERED HERE, and not estimated: the change in each protein's single
+  strongest binder (min %Rank_EL), and per-DESIGN counts of zero remaining strong
+  binders. Both need per-window ranks, which these tables aggregate away, so both
+  require a further scoring pass.
+==================================================================================

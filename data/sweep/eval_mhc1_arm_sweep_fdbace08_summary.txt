@@ -1,0 +1,77 @@
+==============================================================================
+MHC-I ARM EVALUATION  (roadmap step P1.1)
+==============================================================================
+Sequences scored : 2000
+Proteins         : 100
+MHC-I alleles    : HLA-A*02:01+HLA-A*24:02+HLA-B*07:02+HLA-B*39:01+HLA-C*07:01+HLA-C*16:01
+Peptide lengths  : [8, 9, 10]
+PWM directory    : /zfs/s01/z03/home/nhalbwedl/phd/12_immunogenicity/CAPE_MPNN/data/input/immuno/mhc_1/Mhc1PredictorPwm
+
+------------------------------------------------------------------------------
+MHC-I presented windows per sequence
+------------------------------------------------------------------------------
+                                      base       finetuned
+mean ± sd                     109.5 ± 59.6     89.0 ± 50.4
+median                               109.0            87.0
+
+------------------------------------------------------------------------------
+Paired per-protein comparison (n = 100 proteins)
+------------------------------------------------------------------------------
+Mean per-protein reduction : 18.7% ± 7.2%   (median 18.0%)
+Proteins improved          : 99/100
+Paired t-test              : t = 17.506, p = 4.5e-32
+Wilcoxon signed-rank       : W = 2.0, p = 4.14e-18
+
+------------------------------------------------------------------------------
+Per-allele breakdown (mean presented windows per sequence)
+------------------------------------------------------------------------------
+allele                base   finetuned   reduction
+HLA-A*02:01           29.8        25.2         15%
+HLA-A*24:02            7.4         7.1          5%
+HLA-B*07:02           24.0        19.0         21%
+HLA-B*39:01           13.5        11.8         12%
+HLA-C*07:01           12.9         9.9         23%
+HLA-C*16:01           21.8        15.9         27%
+
+------------------------------------------------------------------------------
+Dual-objective check: MHC-I vs MHC-II on the same proteins
+------------------------------------------------------------------------------
+MHC-I  mean reduction : 18.7% ± 7.2%
+MHC-II mean reduction : 22.3% ± 11.0%
+Per-protein reduction correlation     : r = 0.016 (R² = 0.00), p = 0.877
+MHC-II reduced MORE than MHC-I by      3.6 pp (paired t = 2.72, p = 0.00778)
+Proteins where MHC-II red > MHC-I red  : 69/100
+
+------------------------------------------------------------------------------
+Are MHC-I and MHC-II burdens intrinsically coupled?
+------------------------------------------------------------------------------
+Naive burden correlation (all seqs)   : r = 0.763   <- CONFOUNDED
+  protein_length vs MHC-I burden      : r = 0.869
+  protein_length vs MHC-II burden     : r = 0.817
+  Longer proteins have more windows of both classes, which alone produces a
+  large positive correlation. The naive number must not be reported.
+
+Length-controlled, computed separately within each model:
+model            partial r             p
+base                -0.009         0.767
+finetuned            0.007         0.837
+
+Interpretation: once protein length is controlled and models are considered
+separately, the MHC-I and MHC-II epitope burdens are near-independent. The two
+objectives therefore act on largely disjoint sequence features, and the MHC-II
+reduction is NOT a by-product of the MHC-I objective (or vice versa). Note this
+bounds, but does not replace, the MHC-II-only ablation arm (roadmap P2.2):
+near-zero coupling means an MHC-I-only objective could not have produced the
+observed 39% MHC-II drop, but the exact attribution still needs the ablation.
+
+------------------------------------------------------------------------------
+Comparison to Gasser et al. 2025 -- READ BEFORE CITING
+------------------------------------------------------------------------------
+Gasser reports 'relative visibility' = sequence visibility / NATIVE TEMPLATE
+visibility, and reaches up to ~70% reduction along a quality/visibility Pareto
+curve. Our reduction is measured against BASE-MODEL DESIGNS, not the native
+template. The denominators differ, so the numbers are NOT directly comparable.
+A like-for-like comparison requires re-scoring the native template sequences.
+
+Runtime: 49s
+==============================================================================

@@ -1,0 +1,11 @@
+============================================================
+MixMHC2pred ORTHOGONAL VALIDATION — sweep_72757141
+============================================================
+predictor: MixMHC2pred (independent of netMHCIIpan)   counting mode: per_allele
+%Rank threshold (presented): 2.0   proteins: 100
+  base mean windows: 43.64   fine-tuned: 34.73
+  per-protein reduction: 20.8% ± 12.3   (97/100 improved)
+
+Compare to netMHCIIpan on the SAME designs (headline 28.1%): if this is
+substantially positive, the reduction is not a netMHCIIpan idiosyncrasy (P0-1).
+runtime 6.6 min

@@ -1,0 +1,26 @@
+============================================================================
+CHARGE / BIOPHYSICS SHIFT FROM DE-IMMUNISATION  [tag: v3_creg1.0]
+============================================================================
+eval_csv: data/output/eval_deimmunisation_v3_creg1.0.csv
+
+PRIMARY  (eval_deimmunisation.csv: 100 proteins, 2000 sequences)
+metric                        base    fine-tuned         Δ    paired p
+----------------------------------------------------------------------
+net charge @pH7.4            -8.29        -11.14     -2.86       5e-16
+net charge /100 res          -2.89         -3.93     -1.03       5e-13
+isoelectric point             5.60          5.38     -0.22       7e-08
+GRAVY hydropathy             -0.25         -0.51     -0.26       3e-14
+% acidic (D+E)               14.92         17.52     +2.60       1e-12
+% basic (K+R)                12.03         13.59     +1.56       1e-08
+
+Net charge @pH7.4: base mean -8.3, fine-tuned -11.1
+Sequences net-negative: base 90%  ->  fine-tuned 93%
+pI < 5 (strongly acidic): base 32%  ->  fine-tuned 42%
+
+TRAJECTORY  skipped (no --selfconsistency_csv supplied for this run).
+
+----------------------------------------------------------------------------
+CHARGE SHIFT (data-driven, tag v3_creg1.0)
+  Base -> fine-tuned: acidic +2.6 pp, net charge @pH7.4 -8.3 -> -11.1, pI -0.2.
+  Designs below pI 5: base 32% -> fine-tuned 42%.
+============================================================================

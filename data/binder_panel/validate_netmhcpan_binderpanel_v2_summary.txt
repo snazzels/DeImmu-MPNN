@@ -1,0 +1,16 @@
+MHC-I netMHCpan burden on binder panel (base vs f16b51e6-cape), %Rank_EL<=2, 8/9/10-mers, 6 HLA
+
+pdb    base_mean cape_mean reduction%
+7jzl       24.50     21.00      +14.3
+5vli       15.33      7.92      +48.4
+8upa       15.54     15.08       +2.9
+4oyd       37.79     27.12      +28.2
+9ju1       24.75     20.75      +16.2
+9kku       20.38     15.25      +25.2
+8t5e       54.71     24.38      +55.4
+9cc5       66.67     27.54      +58.7
+9nzh       45.75     33.62      +26.5
+9cce       69.46     59.08      +14.9
+9nds      122.08     71.04      +41.8
+
+MHC-I reduction: mean +30.2%  (pooled base 45.2 -> cape 29.3); positive 11/11

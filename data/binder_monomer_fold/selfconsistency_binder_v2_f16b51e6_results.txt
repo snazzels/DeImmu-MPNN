@@ -1,0 +1,18 @@
+======================================================================
+BINDER-CHAIN MONOMER SELF-CONSISTENCY (ESMFold2, top-3 by global_score)
+TM to native binder backbone; fixed 1:1 correspondence, gap-aware.
+======================================================================
+pid       L   native     base     cape  cape-base
+9kku     43    0.415    0.383    0.342     -0.042
+9ju1     43    0.804    0.909    0.909     +0.000
+8upa     56    0.973    0.847    0.885     +0.037
+5vli     39    0.725    0.719    0.721     +0.003
+4oyd    117    0.945    0.969    0.968     -0.001
+7jzl     55    0.957    0.945    0.962     +0.017
+8t5e    130    0.893    0.795    0.793     -0.002
+9cc5    132    0.916    0.949    0.954     +0.005
+9nzh    135    0.949    0.891    0.908     +0.017
+----------------------------------------------------------------------
+MEAN                    0.823    0.827     +0.004
+Wilcoxon base vs cape: p=0.359  (n=9 complexes)
+Interpretation: base ≈ cape TM => de-immunization preserves the binder's own monomer fold.

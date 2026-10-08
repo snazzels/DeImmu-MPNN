@@ -1,0 +1,54 @@
+BASELINE BURDEN vs ACHIEVED REDUCTION — is there a floor effect?
+==============================================================================
+Deployed model f16b51e6 vs base ProteinMPNN. Burden = presented windows
+(netMHCIIpan 15-mers / netMHCpan 8-10-mers, %Rank_EL<=2). Density = per 100 aa.
+Spearman rho with a 20000-permutation two-sided p (seed 20260820); no scipy.
+
+--- monomers (n=100) ----------------------------------------------
+  MHC-II n= 99  base density  16.4/100aa (range 0.1-32.3)  mean drop  37.9%
+         base density vs %  drop : rho=+0.151 p=0.1351
+         base density vs abs drop: rho=+0.571 p=0.0000
+         Q1 density   9.6/100aa  ->  drop  18.7%  (abs   7.5 windows)
+         Q2 density  14.5/100aa  ->  drop  42.6%  (abs  18.4 windows)
+         Q3 density  18.4/100aa  ->  drop  46.0%  (abs  26.4 windows)
+         Q4 density  22.6/100aa  ->  drop  43.6%  (abs  27.2 windows)
+         lowest-burden 5: 7m10_A 0.1->-300%, 6i9s_B 4.2->-13%, 5o75_A 5.4->+83%, 6elm_A 5.6->+58%, 4lor_A 7.9->+52%
+  MHC-I  n=100  base density  46.6/100aa (range 21.2-82.5)  mean drop  33.0%
+         base density vs %  drop : rho=+0.054 p=0.5962
+         base density vs abs drop: rho=+0.667 p=0.0000
+         Q1 density  31.9/100aa  ->  drop  32.3%  (abs  18.2 windows)
+         Q2 density  43.0/100aa  ->  drop  34.0%  (abs  39.3 windows)
+         Q3 density  51.4/100aa  ->  drop  32.2%  (abs  57.2 windows)
+         Q4 density  60.0/100aa  ->  drop  33.5%  (abs  59.4 windows)
+         lowest-burden 5: 3g74_F 21.2->+9%, 2bk8_A 25.1->+28%, 1y4m_A 27.2->+56%, 4rfx_C 27.6->+36%, 3qp3_B 28.0->+44%
+
+--- binders (n=11) ----------------------------------------------
+  MHC-II n= 11  base density  13.2/100aa (range 4.4-29.6)  mean drop  50.4%
+         base density vs %  drop : rho=+0.164 p=0.6323
+         base density vs abs drop: rho=+0.509 p=0.1179
+         Q1 density   6.2/100aa  ->  drop  37.6%  (abs   2.3 windows)
+         Q2 density   9.2/100aa  ->  drop  65.1%  (abs   7.5 windows)
+         Q3 density  11.0/100aa  ->  drop  37.7%  (abs   2.0 windows)
+         Q4 density  18.5/100aa  ->  drop  54.7%  (abs  12.3 windows)
+         lowest-burden 5: 9ju1 4.4->+40%, 9nzh 8.0->+35%, 4oyd 8.4->+61%, 8t5e 10.1->+69%, 8upa 10.5->+30%
+  MHC-I  n= 11  base density  42.1/100aa (range 27.8-57.6)  mean drop  30.2%
+         base density vs %  drop : rho=+0.282 p=0.4024
+         base density vs abs drop: rho=+0.227 p=0.5062
+         Q1 density  30.0/100aa  ->  drop  15.6%  (abs   5.6 windows)
+         Q2 density  34.8/100aa  ->  drop  20.7%  (abs  11.3 windows)
+         Q3 density  40.7/100aa  ->  drop  51.9%  (abs  18.9 windows)
+         Q4 density  50.5/100aa  ->  drop  31.2%  (abs  20.6 windows)
+         lowest-burden 5: 8upa 27.8->+3%, 4oyd 32.3->+28%, 9nzh 33.9->+27%, 9cce 35.6->+15%, 5vli 39.3->+48%
+
+Designs with ZERO base MHC-II windows (no headroom, % undefined): 1 — 4b6d_C
+Ten lowest MHC-II base densities (windows/100 aa), with outcome:
+  4b6d_C       monomer  L=  61  base   0.00 (  0.0/100aa)  -> n/a
+  7m10_A       monomer  L=  86  base   0.10 (  0.1/100aa)  -> -300.0%
+  6i9s_B       monomer  L= 202  base   8.50 (  4.2/100aa)  -> -12.9%
+  9ju1         binder   L=  43  base   1.88 (  4.4/100aa)  -> +40.0%
+  5o75_A       monomer  L=  78  base   4.20 (  5.4/100aa)  -> +83.3%
+  6elm_A       monomer  L=  98  base   5.50 (  5.6/100aa)  -> +58.2%
+  4lor_A       monomer  L= 363  base  28.50 (  7.9/100aa)  -> +52.3%
+  9nzh         binder   L= 135  base  10.79 (  8.0/100aa)  -> +35.1%
+  2yn0_A       monomer  L= 271  base  22.50 (  8.3/100aa)  -> +49.8%
+  2bk8_A       monomer  L=  97  base   8.10 (  8.4/100aa)  -> +8.6%

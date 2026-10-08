@@ -1,0 +1,29 @@
+=================================================================
+NETMHCIIPAN VALIDATION — CAPE-MPNN binderpanel_v2 vs BASE v_48_020
+=================================================================
+Proteins evaluated: 11
+Sequences per model per protein: 24
+Total sequences: 528
+Unique 15-mers scored by netMHCIIpan: 43415
+Presentation threshold: %Rank_EL ≤ 2.0%
+
+── netMHCIIpan-predicted presented windows ──────────────────
+  Base model:   mean 14.02 ± 13.07  (median 10.0)
+  Fine-tuned:   mean 6.27 ± 6.21  (median 5.0)
+
+── Per-protein means ─────────────────────────────────────────
+  Base:         14.02 ± 11.71
+  Fine-tuned:   6.27 ± 4.85
+  Reduction:    mean 50.4% ± 16.8%  (median 44.9%)
+  Improved:     11/11 proteins
+
+── Statistical tests ─────────────────────────────────────────
+  Paired t-test:    t=3.098,  p=0.01128
+  Wilcoxon:         W=0.0, p=0.0009766
+
+── PWM vs netMHCIIpan correlation (all sequences) ───────────
+  Pearson r:        nan  (p=nan)
+  Spearman rho:     nan (p=nan)
+
+Total runtime: 8.9 min
+=================================================================

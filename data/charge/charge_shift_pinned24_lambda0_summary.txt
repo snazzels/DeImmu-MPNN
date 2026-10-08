@@ -1,0 +1,26 @@
+============================================================================
+CHARGE / BIOPHYSICS SHIFT FROM DE-IMMUNISATION  [tag: pinned24_lambda0]
+============================================================================
+eval_csv: data/output/allele_generalisation_pinned24_lambda0.csv
+
+PRIMARY  (eval_deimmunisation.csv: 24 proteins, 192 sequences)
+metric                        base    fine-tuned         Δ    paired p
+----------------------------------------------------------------------
+net charge @pH7.4            -6.44        -16.59    -10.14       1e-07
+net charge /100 res          -2.35         -5.97     -3.62       2e-09
+isoelectric point             5.90          5.03     -0.87       3e-06
+GRAVY hydropathy             -0.31         -0.64     -0.33       2e-10
+% acidic (D+E)               14.79         19.88     +5.09       2e-11
+% basic (K+R)                12.44         13.91     +1.47      0.0003
+
+Net charge @pH7.4: base mean -6.4, fine-tuned -16.6
+Sequences net-negative: base 83%  ->  fine-tuned 98%
+pI < 5 (strongly acidic): base 29%  ->  fine-tuned 60%
+
+TRAJECTORY  skipped (no --selfconsistency_csv supplied for this run).
+
+----------------------------------------------------------------------------
+CHARGE SHIFT (data-driven, tag pinned24_lambda0)
+  Base -> fine-tuned: acidic +5.1 pp, net charge @pH7.4 -6.4 -> -16.6, pI -0.9.
+  Designs below pI 5: base 29% -> fine-tuned 60%.
+============================================================================

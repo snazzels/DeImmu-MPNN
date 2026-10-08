@@ -1,0 +1,14 @@
+ORTHOGONAL VALIDATION OF v2 BINDER-PANEL DE-IMMUNISATION (f16b51e6, base vs cape, 11 complexes, 24 designs each)
+================================================================================================
+Closes the circular-validation gap: the panel burden had been PWM-only (the training signal).
+All predictors: per-protein reduction, base(v1 v_48_020) vs cape(f16b51e6).
+
+  predictor                         reduction     improved
+  PWM (Mhc2PredictorPwm, TRAINING)   +55.5%        11/11
+  netMHCIIpan (MHC-II, orthogonal)   +50.4%        11/11   (t=3.10 p=0.011; base 14.0 -> ft 6.3 windows)
+  MixMHC2pred (MHC-II, indep lineage)+40.4%        11/11   (base 14.8 -> ft 8.4)
+  netMHCpan   (MHC-I, orthogonal)    +30.2%        11/11   (base 45.2 -> ft 29.3)
+
+Every orthogonal predictor strongly positive and 11/11 -> the panel de-immunisation is NOT a
+netMHCIIpan/PWM idiosyncrasy. Magnitudes order as on the monomers (optimised PWM highest).
+Data: validate_{netmhciipan,mixmhc2pred}_binderpanel_v2_summary.txt, validate_netmhcpan_binderpanel_v2_summary.txt

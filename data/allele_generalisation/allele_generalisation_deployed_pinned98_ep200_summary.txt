@@ -1,0 +1,32 @@
+==============================================================================
+HELD-OUT ALLELE GENERALISATION  (roadmap P2.3)
+==============================================================================
+Designs: Track 7 base vs fine-tuned, 24 proteins x 4 seqs/model
+Scorer: netMHCIIpan-4.3, %Rank_EL <= 2.0. One scorer for all groups.
+Reduction = per-protein mean presented windows, base vs fine-tuned (paired).
+The 'trained DRB1' row is the reference (reproduces Track 8, ~38%).
+
+allele group     #al     base  finetuned  reduction   p (Wilcoxon)  improved
+------------------------------------------------------------------------------
+trained DRB1       6      7.6        4.3        43%        2.4e-07     23/24
+held-out DRB1      6      7.1        4.3        40%        2.4e-07     23/24
+DRB3/4/5           3      7.7        4.5        41%        1.7e-06     21/24
+HLA-DQ             3      7.7        4.3        44%          3e-05     20/24
+HLA-DP             3      7.7        7.0         9%           0.15     16/24
+------------------------------------------------------------------------------
+
+INTERPRETATION  (retention = reduction / trained-DRB1 reference)
+  trained DRB1 (reference)   :   43%
+  held-out DRB1           :   40%  ( 93% of ref, significant)  -> transfers fully
+  DRB3/4/5                :   41%  ( 97% of ref, significant)  -> transfers fully
+  HLA-DQ                  :   44%  (102% of ref, significant)  -> transfers fully
+  HLA-DP                  :    9%  ( 22% of ref, n.s.)  -> does NOT transfer
+
+  Bottom line: the reduction generalises across the DR loci (unseen DRB1 and the
+  DRB3/4/5 paralogs) and even to DQ, so the model learned broadly-applicable groove
+  chemistry rather than six memorised motifs -- most of the MHC-II repertoire is
+  covered without retraining. DP is the exception (no transfer); if DP coverage
+  matters it must be trained explicitly (distinct heterodimer groove, weaker predictor).
+
+Runtime: 104.1 min
+==============================================================================

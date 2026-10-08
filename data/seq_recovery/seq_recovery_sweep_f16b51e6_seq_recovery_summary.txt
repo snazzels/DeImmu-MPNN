@@ -1,0 +1,19 @@
+=================================================================
+SEQUENCE RECOVERY CHECK  (re-run on deposited lambda=0 retrain)
+Base v_48_020 vs DPO fine-tuned f16b51e6/epoch_200  (temperature=0.2)
+=================================================================
+Proteins matched: 45
+Sequences/model:  10
+
+-- Per-protein mean recovery -----------------------------------
+  Base:       49.76% +/- 5.49%  (median 50.19%)
+  Fine-tuned: 47.70% +/- 5.31%  (median 47.86%)
+  Change:     -2.06 pp
+  Paired t-test: t=8.837, p=0.00000
+  Wilcoxon:      W=32, p=0.00000
+  Proteins where FT >= base: 4/45
+
+-- All sequences (not per-protein) -----------------------------
+  Base:       49.76% +/- 5.89%
+  Fine-tuned: 47.70% +/- 5.68%
+=================================================================

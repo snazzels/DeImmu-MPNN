@@ -1,0 +1,33 @@
+HUMAN-PROTEOME 9-MER MATCH RATE (P1-9 / R2-W5)
+==============================================================================
+source CSV : validate_netmhciipan_sweep_f16b51e6.csv
+proteome   : human_swissprot.fasta — 20431 proteins, 10406102 unique 9-mers
+proteins   : 100 paired
+windows    : 530280 total, 7500 skipped (1.414%)
+             skipped windows span a chain separator '/' or an unknown residue 'X'.
+             A 9-mer crossing a chain junction is not a real peptide, so excluding
+             it is correct here. NOTE that the 15-mer window builders used for the
+             burden metric STRIP '/' instead, and therefore do count windows across
+             junctions; that convention is preserved there because the published
+             counts depend on it. The two tools differ deliberately, not by accident.
+
+  base       0.869% of 9-mers occur in the human proteome (sd 3.161)
+  fine-tuned 0.745%                                   (sd 2.859)
+  paired difference (fine-tuned - base) = -0.124 pp
+  95% CI [-0.288, +0.040]   paired t p=0.137   Wilcoxon p=0.0574
+  designs more self-like after fine-tuning: 27/100
+
+READING (fixed before the numbers were computed):
+  lower  -> the objective makes designs less self-like while lowering predicted
+            presentation; a tension to report, not to fold into the headline.
+  flat   -> the reduction is not bought at the cost of self-likeness.
+  higher -> designs incidentally move toward human-like sequence.
+
+  OBSERVED: no detectable change (-0.124 pp, p=0.137).
+
+  CAVEAT, which belongs with any use of this number: occurrence in the proteome
+  is a crude tolerance proxy. Central tolerance tracks thymic expression, not
+  mere presence, and this says nothing about whether a matched core is presented.
+  The paired design is what makes the between-arm difference interpretable; the
+  absolute level is not.
+==============================================================================

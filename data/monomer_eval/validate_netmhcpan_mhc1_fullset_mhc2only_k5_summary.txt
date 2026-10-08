@@ -1,0 +1,9 @@
+NETMHCpan (MHC-I) DIRECT — fullset_mhc2only_k5
+in_csv: data/output/eval_deimmunisation_mhc2only_seed42.csv
+Proteins: 100  seqs/model/protein: 5  unique kmers: 634145
+Base per-protein mean:      132.66
+Fine-tuned per-protein mean:125.59
+Per-protein reduction:      5.1% +/- 10.4%  (median 5.9%)
+Improved: 73/100
+Paired t=5.752 p=9.858e-08
+Runtime 109.8 min

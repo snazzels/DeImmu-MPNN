@@ -1,0 +1,44 @@
+============================================================================
+CHARGE / BIOPHYSICS SHIFT FROM DE-IMMUNISATION
+============================================================================
+
+PRIMARY  (eval_deimmunisation.csv: 100 proteins, 2000 sequences)
+metric                        base    fine-tuned         Δ    paired p
+----------------------------------------------------------------------
+net charge @pH7.4            -7.76        -16.74     -8.98       2e-30
+net charge /100 res          -2.43         -6.47     -4.04       1e-10
+isoelectric point             5.73          5.02     -0.71       3e-18
+GRAVY hydropathy             -0.22         -0.56     -0.34       4e-13
+% acidic (D+E)               14.78         20.24     +5.45       3e-13
+% basic (K+R)                12.35         13.76     +1.41       6e-16
+
+Net charge @pH7.4: base mean -7.8, fine-tuned -16.7
+Sequences net-negative: base 87%  ->  fine-tuned 97%
+pI < 5 (strongly acidic): base 34%  ->  fine-tuned 67%
+
+TRAJECTORY  (selfconsistency: native vs base vs fine-tuned, 37 proteins)
+metric                    native      base   fine-tuned
+--------------------------------------------------------
+net charge @pH7.4          -1.20     -2.60        -7.84
+net charge /100 res        -0.43     -1.76        -7.33
+isoelectric point           6.78      6.13         5.15
+GRAVY hydropathy           -0.42     -0.36        -0.79
+% acidic (D+E)             13.46     14.15        22.09
+% basic (K+R)              13.03     12.39        14.76
+
+Reading the trajectory: compare native->base (ProteinMPNN's own bias) with
+base->fine-tuned (the de-immunisation's added shift). If most of the charge
+gap opens at base->fine-tuned, the DPO objective is the cause.
+
+----------------------------------------------------------------------------
+VERDICT — substantial, and attributable to the DPO step
+  Base -> fine-tuned: acidic +5.5 pp, net charge -7.8 -> -16.7 (≈doubles), pI -0.7, GRAVY more hydrophilic. 67% of designs fall below pI 5.
+  Trajectory (net charge/100 res): native -0.4 -> base -1.8 -> fine-tuned -7.3. Native is ~neutral and
+  ProteinMPNN adds little; almost the entire shift opens at base->fine-tuned, so it
+  is the de-immunisation objective — not ProteinMPNN or the native fold — that drives it.
+  Not fatal: foldability is unchanged (Track 16). But it is large enough to matter for
+  solubility / pI-sensitive applications, and it means a meaningful share of the
+  'de-immunisation' is generic charge repulsion rather than epitope-specific editing.
+  => Warrants a composition/charge regulariser in the DPO objective;
+     re-evaluate whether the reduction survives when the charge shortcut is penalised.
+============================================================================

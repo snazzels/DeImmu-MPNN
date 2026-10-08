@@ -1,0 +1,9 @@
+NETMHCpan (MHC-I) DIRECT — fullset_dualL0_k5
+in_csv: data/output/eval_deimmunisation_dual_lambda0_seed42.csv
+Proteins: 100  seqs/model/protein: 5  unique kmers: 670108
+Base per-protein mean:      138.87
+Fine-tuned per-protein mean:104.26
+Per-protein reduction:      26.0% +/- 7.9%  (median 24.9%)
+Improved: 100/100
+Paired t=20.300 p=4.591e-37
+Runtime 126.2 min

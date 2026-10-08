@@ -1,0 +1,59 @@
+========================================================================================
+HUMAN-PROTEOME REFERENCE POINT — netMHCIIpan, the manuscript's primary axis
+========================================================================================
+scorer    : netMHCIIpan, 6 DRB1 alleles, 15-mer windows, presented := %Rank_EL <= 2.0
+source    : human_swissprot.fasta (20396 standard-residue entries)
+designs   : validate_netmhciipan_sweep_f16b51e6.csv (guarded n=98, the published arm)
+sample    : seed 20260928, protein_set_md5 0bf28b09ffa7
+metric    : netmhc_total = presented windows summed over the 6 alleles
+
+PER-PROTEIN PREDICTED BURDEN
+
+  population                        raw count                                     
+  ------------------------------------------------------------------------------------
+  human, length-matched             n=400  mean    27.13  median    23.00  IQR 12.25-37.00
+  human, proteome-wide              n=200  mean    50.90  median    37.00  IQR 19.00-71.75
+  base ProteinMPNN                  n=98   mean    46.70  median    45.50  IQR 29.85-64.62
+  de-immunised (f16b51e6)           n=98   mean    26.39  median    24.80  IQR 13.90-36.12
+
+  population                        presented windows per 100 residues            
+  ------------------------------------------------------------------------------------
+  human, length-matched             n=400  mean     9.28  median     8.49  IQR 5.72-12.37
+  human, proteome-wide              n=200  mean     9.57  median     9.91  IQR 6.77-11.94
+  base ProteinMPNN                  n=98   mean    16.62  median    17.37  IQR 12.54-19.98
+  de-immunised (f16b51e6)           n=98   mean     9.58  median     9.23  IQR 7.30-11.79
+
+  population                        epitope_fraction (allele-window pairs)        
+  ------------------------------------------------------------------------------------
+  human, length-matched             n=400  mean   0.0165  median   0.0150  IQR 0.0104-0.0217
+  human, proteome-wide              n=200  mean   0.0167  median   0.0171  IQR 0.0115-0.0205
+  base ProteinMPNN                  n=98   mean   0.0296  median   0.0304  IQR 0.0225-0.0357
+  de-immunised (f16b51e6)           n=98   mean   0.0171  median   0.0165  IQR 0.0131-0.0207
+
+LENGTH CHECK — the one confounder this design controls
+  design set        : median 282 aa, range 78-496
+  human length-matched: median 283 aa, range 78-495
+  human proteome-wide : median 397 aa, range 57-1912
+
+WHERE THE DESIGNS SIT (density basis, length-matched human stratum)
+  base ProteinMPNN         median 17.37 per 100 aa — above 92% of human proteins
+  de-immunised             median  9.23 per 100 aa — above 56% of human proteins
+
+READING (fixed in the module docstring BEFORE these numbers were computed)
+  OBSERVED: human proteins carry a LOWER median density than the de-immunised
+  designs. The reduction is a step toward, not to, the level of self-protein.
+
+LIMITS ON WHAT THIS CAN SUPPORT
+  1. Human proteins are tolerated by thymic negative selection and peripheral
+     tolerance, not by presenting few peptides. No predictor used here
+     represents that mechanism, so this is a reference SCALE, not a target.
+  2. Two unrelated populations: composition, fold class and origin differ at
+     once. Length is controlled by the length_matched stratum; nothing else is.
+  3. The designs are scored as k=5 sequences per backbone averaged to a
+     per-protein mean; each human protein contributes one natural sequence.
+     The human spread is therefore between-protein variance only, while the
+     design spread has had within-backbone variance averaged out of it.
+  4. SwissProt canonical sequences include signal and propeptides that are not
+     present in the mature circulating protein, unlike the biologics reference
+     set, which was sliced to mature chains.
+========================================================================================
