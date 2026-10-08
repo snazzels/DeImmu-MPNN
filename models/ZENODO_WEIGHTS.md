@@ -25,8 +25,9 @@ each time shipping a deposition without a model the manuscript reports.
 ### Related identifiers
 | Relation | Identifier |
 |---|---|
-| `isSupplementTo` | [paper DOI — REPLACE] |
-| `isSupplementedBy` | [code Zenodo DOI / GitHub release — REPLACE] |
+| *(this record's own DOI)* | **10.5281/zenodo.23239266** — reserved 2026-10-08, record id `23239266` |
+| `isSupplementTo` | [paper DOI — pending bioRxiv posting] |
+| `isSupplementedBy` | [code Zenodo DOI — pending the `v1.0.0` GitHub release] |
 | `isDerivedFrom` | https://github.com/hcgasser/CAPE_MPNN |
 | `isDerivedFrom` | https://github.com/dauparas/ProteinMPNN |
 

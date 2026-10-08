@@ -13,8 +13,7 @@ authors:
     affiliation: "Department of Biosciences, Center for Protein Assemblies, Technical University of Munich, Garching, Germany"
     email: "zacharias@tum.de"
 version: "0.1.0"
-# UPDATE to the actual release date on the day the repository is published.
-date-released: "2026-10-02"
+date-released: "2026-10-08"
 license: MIT
 repository-code: "https://github.com/snazzels/DeImmu-MPNN"
 preferred-citation:
