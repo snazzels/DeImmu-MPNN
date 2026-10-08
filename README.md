@@ -4,6 +4,9 @@ Code and models for **"DeImmu-MPNN: Reducing Immunogenicity Burden in
 De Novo Protein Design"**
 ([manuscript reference / DOI to be added on publication]).
 
+**Archived releases.** Code: [`10.5281/zenodo.23239981`](https://doi.org/10.5281/zenodo.23239981) · Trained
+checkpoints and evaluation data: [`10.5281/zenodo.23239266`](https://doi.org/10.5281/zenodo.23239266)
+
 This repository releases a fine-tuned ProteinMPNN that redesigns a protein
 sequence to **reduce predicted MHC class II (T-helper) epitope burden** while
 preserving structure and, for binders, predicted binding. It is intended to be
